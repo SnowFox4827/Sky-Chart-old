@@ -1,0 +1,24 @@
+# Keep the Docker build context small and free of secrets.
+# (The Dockerfile only COPYs app.py, templates/, static/ and data/,
+#  so everything else here is just excluded from the context.)
+
+# Version control
+.git
+.gitignore
+
+# Local config / secrets
+.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Docker files and docs aren't needed inside the image
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md
