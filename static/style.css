@@ -1,0 +1,255 @@
+/* ============================================================
+   Star Chart — stylesheet
+   Sections: tokens · base · canvas · panel · controls ·
+             tooltip · info · switch · night mode · responsive
+   ============================================================ */
+
+/* ---------- Design tokens ---------- */
+:root {
+  /* color palette */
+  --bg:             #05070f;
+  --text:           #cdd6f4;
+  --text-dim:       #9aa7c9;
+  --text-faint:     #7a86a8;
+  --text-hint:      #66739a;
+  --accent:         #6c8cff;
+  --accent-strong:  #8fb8ff;
+  --gold:           #ffd98a;
+  --warn:           #ffcf7a;
+
+  --surface:        rgba(10, 16, 30, 0.82);
+  --surface-input:  #131b33;
+  --surface-btn:    #1b2a52;
+  --surface-btn-hi: #25386b;
+  --border:         rgba(120, 150, 255, 0.25);
+  --border-input:   #2b3a63;
+  --border-strong:  #3a4d7f;
+
+  /* layout & type */
+  --panel-width:    280px;
+  --radius:         12px;
+  --radius-sm:      7px;
+  --font:           'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Night mode swaps the palette in one place. The canvas itself is
+   red-shifted with a filter below (filters on the root element break
+   fixed-position rendering in some browsers). */
+html.night {
+  --bg:            #150505;
+  --text:          #ffb3b3;
+  --text-dim:      #c98a8a;
+  --text-faint:    #b57575;
+  --text-hint:     #9c6666;
+  --accent:        #e05555;
+  --accent-strong: #ff9a9a;
+  --gold:          #ffd08a;
+  --warn:          #ffcf7a;
+
+  --surface:       rgba(40, 8, 8, 0.85);
+  --surface-input: #3a1212;
+  --surface-btn:   #3a1212;
+  --surface-btn-hi:#4d1a1a;
+  --border:        rgba(255, 90, 90, 0.35);
+  --border-input:  #6b2424;
+  --border-strong: #6b2424;
+}
+
+/* ---------- Base ---------- */
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  font-family: var(--font);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ---------- Canvas ---------- */
+#sky {
+  position: fixed;
+  inset: 0;
+  cursor: grab;
+}
+#sky.drag { cursor: grabbing; }
+html.night #sky {
+  filter: grayscale(1) sepia(1) hue-rotate(-42deg) saturate(6) brightness(0.85);
+}
+
+/* ---------- Control panel ---------- */
+.panel {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 5;
+  max-width: var(--panel-width);
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(6px);
+}
+.panel h1 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--accent-strong);
+}
+.panel small { color: var(--text-faint); }
+
+/* ---------- Controls ---------- */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.row b {
+  min-width: 28px;
+  font-weight: 600;
+  text-align: right;
+  color: var(--text);
+}
+
+#search {
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 9px;
+  font-size: 13px;
+  color: var(--text);
+  background: var(--surface-input);
+  border: 1px solid var(--border-input);
+  border-radius: var(--radius-sm);
+}
+#search::placeholder { color: var(--text-hint); }
+
+input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.btn {
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+  background: var(--surface-btn);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn:hover { background: var(--surface-btn-hi); }
+
+.grow { flex: 1; }
+.check { cursor: pointer; }
+.row b.flush { min-width: 0; }
+
+.field {
+  padding: 4px 6px;
+  font-size: 12px;
+  color: var(--text);
+  background: var(--surface-input);
+  border: 1px solid var(--border-input);
+  border-radius: 6px;
+}
+.field.w-lat { width: 58px; }
+.field.w-lon { width: 64px; }
+
+.btn.btn-inline {
+  width: auto;
+  margin-top: 0;
+  padding: 4px 10px;
+}
+
+/* ---------- Tooltip ---------- */
+#tip {
+  position: fixed;
+  z-index: 10;
+  display: none;
+  padding: 6px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  pointer-events: none;
+}
+#tip b { color: var(--gold); }
+
+/* ---------- Info & hints ---------- */
+#info {
+  min-height: 18px;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+#info b { color: var(--gold); }
+
+.hint {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-hint);
+}
+
+.loadmsg {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--warn);
+}
+.loadmsg code {
+  display: block;
+  margin: 3px 0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ---------- N/S switch ---------- */
+.switch {
+  position: relative;
+  flex: 0 0 auto;
+  width: 52px;
+  height: 24px;
+  background: var(--surface-input);
+  border: 1px solid var(--border-input);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.switch .knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 18px;
+  border-radius: 9px;
+  background: var(--accent);
+  transition: left 0.18s, background 0.18s;
+}
+.switch.south .knob {
+  left: 28px;
+  background: #ff9a6c;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 480px) {
+  .panel {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    max-width: none;
+    padding: 10px 12px;
+  }
+  #tip { font-size: 11px; }
+}
