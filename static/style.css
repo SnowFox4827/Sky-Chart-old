@@ -73,6 +73,7 @@ html, body {
   position: fixed;
   inset: 0;
   cursor: grab;
+  touch-action: none;
 }
 #sky.drag { cursor: grabbing; }
 html.night #sky {
@@ -100,6 +101,38 @@ html.night #sky {
   color: var(--accent-strong);
 }
 .panel small { color: var(--text-faint); }
+
+/* Slide the panel off-screen when hidden */
+.panel {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.panel.hidden {
+  transform: translateX(calc(-100% - 20px));
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---------- Panel toggle button ---------- */
+.panel-toggle {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 6;
+  width: 34px;
+  height: 34px;
+  font-size: 17px;
+  line-height: 1;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.15s;
+}
+.panel-toggle:hover { background: var(--surface-btn-hi); }
+.panel-toggle.shifted { left: calc(var(--panel-width) + 24px); }
+html.night .panel-toggle.shifted { left: 14px; }
 
 /* ---------- Controls ---------- */
 .row {
@@ -251,5 +284,9 @@ input[type="range"] {
     max-width: none;
     padding: 10px 12px;
   }
+  .panel.hidden {
+    transform: translateY(calc(-100% - 14px));
+  }
+  .panel-toggle.shifted { left: 14px; }
   #tip { font-size: 11px; }
 }

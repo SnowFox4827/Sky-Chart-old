@@ -2,10 +2,12 @@
 (async function main() {
   const msg = document.getElementById('loadmsg');
   msg.hidden = false;
-  let STARS, CONST;
+  let STARS, CONST, SOLAR_RAW;
   try {
     const get = url => fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
-    [STARS, CONST] = await Promise.all([get('/data/stars.json'), get('/data/constellations.json')]);
+    [STARS, CONST, SOLAR_RAW] = await Promise.all([
+      get('/data/stars.json'), get('/data/constellations.json'), get('/data/solar-system.json')
+    ]);
   } catch (err) {
     msg.innerHTML = 'Could not load star data (' + (err.message || err) + ').<br>' +
       'If you opened this file directly from disk, that is why — browsers block local data fetches.<br>' +
@@ -14,6 +16,15 @@
     return;
   }
   msg.remove();
+
+  // build SOLAR_DATA from data/solar-system.json — same [N,Nrate,i,irate,w,wrate,a,e,erate,M,Mrate] arrays
+  SOLAR_DATA = SOLAR_RAW.bodies.map(p => {
+    const el = p.elements;
+    return { name:p.name, col:p.color, H:p.absolute_magnitude_H,
+      el:[el.N.value, el.N.rate_per_day, el.i.value, el.i.rate_per_day,
+          el.w.value, el.w.rate_per_day, el.a_AU,
+          el.e.value, el.e.rate_per_day, el.M.value, el.M.rate_per_day] };
+  });
 
   const TAU = Math.PI*2;
   const D2R = Math.PI/180;
@@ -81,7 +92,52 @@
   }
   function magToRadius(m){ return Math.max(0.55, 6.2 - m*1.05); }
 
+  const solarChk = document.getElementById('solarChk');
   let visible = [];
+  let solarHits = [];
+  function dayNumber(){
+    const t = obsTime.value ? Date.parse(obsTime.value) : Date.now();
+    return t/86400000 + 2440587.5 - 2451543.5;
+  }
+  const SOLAR_BODIES = [
+    {name:'Sun', col:'#ffdf6e'},
+    {name:'Moon', col:'#eef0f4'},
+    ...SOLAR_DATA.map(p=>({name:p.name, col:p.col, el:p.el, H:p.H})),
+  ];
+  function drawSolar(cx, cy){
+    if (!solarChk.checked) return;
+    solarHits = [];
+    const d = dayNumber();
+    for (const p of SOLAR_BODIES){
+      const pos = bodyPos(d, p);
+      const pt = project(pos.ra, pos.dec);
+      if (pt[0]*pt[0] + pt[1]*pt[1] > ((Math.hypot(W/2,H/2)/view.scale + 0.2)**2)) continue;
+      const sx = cx + pt[0]*view.scale, sy = cy + pt[1]*view.scale;
+      const r = Math.max(3.2, magToRadius(pos.mag) + 2.2);
+      // dim below the horizon in horizon mode
+      let alpha = 1;
+      if (horizonChk.checked){
+        const la = observerLat(), L = lst();
+        const alt = Math.asin(Math.sin(pos.dec)*Math.sin(la) + Math.cos(pos.dec)*Math.cos(la)*Math.cos(L - pos.ra));
+        if (alt < 0) alpha = 0.22;
+      }
+      ctx.globalAlpha = alpha;
+      ctx.globalCompositeOperation = 'lighter';
+      const gr = ctx.createRadialGradient(sx,sy,0,sx,sy,r*4);
+      gr.addColorStop(0, p.col);
+      gr.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(sx,sy,r*4,0,TAU); ctx.fill();
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.fillStyle = p.col; ctx.beginPath(); ctx.arc(sx,sy,r,0,TAU); ctx.fill();
+      ctx.globalAlpha = 1;
+      solarHits.push([sx, sy, p, pos]);
+      if (labelsChk.checked){
+        ctx.font = '11px Segoe UI, sans-serif'; ctx.textBaseline = 'middle';
+        ctx.fillStyle = 'rgba(230,235,255,0.95)';
+        ctx.fillText(p.name, sx + r + 4, sy - r - 2);
+      }
+    }
+  }
   function draw(){
     ctx.fillStyle = '#05070f'; ctx.fillRect(0,0,W,H);
     const g = ctx.createRadialGradient(W/2,H/2,0,W/2,H/2,Math.max(W,H)*0.7);
@@ -123,6 +179,7 @@
       if (s[4]) visible.push([sx,sy,s]);
     }
     ctx.globalCompositeOperation = 'source-over';
+    drawSolar(cx, cy);
     const placed = [];
     if (labelsChk.checked){
       ctx.font = '11px Segoe UI, sans-serif'; ctx.textBaseline = 'middle';
@@ -225,20 +282,52 @@
   }
 
   let dragging=false, lx=0, ly=0;
-  canvas.addEventListener('pointerdown', e=>{ dragging=true; lx=e.clientX; ly=e.clientY; canvas.classList.add('drag'); canvas.setPointerCapture(e.pointerId); });
-  canvas.addEventListener('pointerup', ()=>{ dragging=false; canvas.classList.remove('drag'); });
+  function applyPan(dx, dy){
+    if (horizonChk.checked){
+      view.az += dx/view.scale;
+      view.alt += dy/view.scale;
+      view.alt = Math.max(-1.55, Math.min(1.55, view.alt));
+    } else {
+      const sx = isSouth() ? -1 : 1;
+      view.ra += sx*dx/view.scale;
+      view.dec += dy/view.scale;
+      view.dec = Math.max(-1.55, Math.min(1.55, view.dec));
+    }
+  }
+  // multi-touch: track active pointers for pinch-zoom
+  const active = new Map();
+  let pinch = null; // {dist, cx, cy}
+  function pinchState(){
+    const pts = [...active.values()];
+    const dx = pts[0].clientX-pts[1].clientX, dy = pts[0].clientY-pts[1].clientY;
+    return { dist: Math.hypot(dx,dy) || 1, cx:(pts[0].clientX+pts[1].clientX)/2, cy:(pts[0].clientY+pts[1].clientY)/2 };
+  }
+  canvas.addEventListener('pointerdown', e=>{
+    active.set(e.pointerId, e);
+    if (active.size===2){
+      dragging=false; canvas.classList.remove('drag');
+      pinch = pinchState();
+      e.preventDefault();
+    } else {
+      dragging=true; lx=e.clientX; ly=e.clientY; canvas.classList.add('drag'); canvas.setPointerCapture(e.pointerId);
+    }
+  });
+  canvas.addEventListener('pointerup', e=>{ active.delete(e.pointerId); if (active.size<2) pinch=null; if (!active.size) dragging=false; canvas.classList.remove('drag'); });
+  canvas.addEventListener('pointercancel', e=>{ active.delete(e.pointerId); if (active.size<2) pinch=null; if (!active.size) dragging=false; canvas.classList.remove('drag'); });
   canvas.addEventListener('pointermove', e=>{
-    if (dragging){
-      if (horizonChk.checked){
-        view.az += (e.clientX-lx)/view.scale;
-        view.alt += (e.clientY-ly)/view.scale;
-        view.alt = Math.max(-1.55, Math.min(1.55, view.alt));
-      } else {
-        const sx = isSouth() ? -1 : 1;
-        view.ra += sx*(e.clientX-lx)/view.scale;
-        view.dec += (e.clientY-ly)/view.scale;
-        view.dec = Math.max(-1.55, Math.min(1.55, view.dec));
-      }
+    if (active.has(e.pointerId)) active.set(e.pointerId, e);
+    if (pinch && active.size>=2){
+      e.preventDefault();
+      const now = pinchState();
+      // zoom around the midpoint of the two fingers
+      const k = Math.max(60, Math.min(3000, view.scale * now.dist/pinch.dist)) / view.scale;
+      view.scale *= k;
+      // pan by midpoint movement
+      applyPan(now.cx - pinch.cx, now.cy - pinch.cy);
+      pinch = now;
+      draw();
+    } else if (dragging){
+      applyPan(e.clientX-lx, e.clientY-ly);
       lx = e.clientX; ly = e.clientY;
       draw();
     } else {
@@ -257,7 +346,16 @@
   });
   canvas.addEventListener('click', e=>{
     if (dragged) { dragged=false; return; }
-    let best=null, bd=Infinity;
+    let best=null, bestPos=null, bd=Infinity;
+    for (const [sx,sy,p,pos] of solarHits){
+      const d2=(e.clientX-sx)**2+(e.clientY-sy)**2;
+      if (d2<225 && d2<bd){ bd=d2; best=p; bestPos=pos; }
+    }
+    if (best){
+      const ph = bestPos.phase!=null && best.name!=='Moon' && best.name!=='Sun' ? ' · Phase '+(bestPos.phase*100).toFixed(0)+'%' : '';
+      info.innerHTML = '<b>'+best.name+'</b><br>Mag '+bestPos.mag.toFixed(2)+ph+'<br>RA '+(bestPos.ra/TAU*24).toFixed(2)+'h · Dec '+(bestPos.dec*180/Math.PI).toFixed(1)+'°';
+      return;
+    }
     for (const [sx,sy,s] of visible){
       const d2=(e.clientX-sx)**2+(e.clientY-sy)**2;
       if (d2<144 && d2<bd){ bd=d2; best=s; }
@@ -285,6 +383,7 @@
   horizonChk.addEventListener('change', draw);
   document.getElementById('night').addEventListener('change', e=>{ document.documentElement.classList.toggle('night', e.target.checked); });
   for (const el of [latIn, lonIn, obsTime]) el.addEventListener('change', draw);
+  solarChk.addEventListener('change', draw);
   document.getElementById('nowBtn').onclick = ()=>{ setNow(); draw(); };
   document.getElementById('north').onclick = ()=>{
     if (horizonChk.checked){ view.az=0; view.alt=Math.max(0.3,observerLat()); }
@@ -300,6 +399,18 @@
     if (!q) return;
     const hit = STARS.find(s=>s[4] && s[4].toLowerCase().includes(q));
     if (!hit){
+      // solar system bodies: compute their current position
+      const d = (Date.now()/86400000) + 2440587.5 - 2451543.5;
+      const pbody = SOLAR_BODIES.find(b=>b.name.toLowerCase().includes(q));
+      if (pbody){
+        const p = bodyPos(d, pbody);
+        if (horizonChk.checked){ const [haz, halt] = eqToAltAz(p.ra, p.dec); view.az = haz; view.alt = halt; }
+        else { view.ra = p.ra; view.dec = p.dec; }
+        view.scale = Math.max(view.scale, 700); draw();
+        const kind = 'Solar System body';
+        info.innerHTML = '<b>'+pbody.name+'</b><br>'+kind+'<br>Mag '+p.mag.toFixed(2)+'<br>RA '+(p.ra/TAU*24).toFixed(2)+'h · Dec '+(p.dec*180/Math.PI).toFixed(1)+'°';
+        e.target.blur(); return;
+      }
       const con = CONST.find(c=>c.n.toLowerCase().includes(q));
       if (con && con.l){
         if (horizonChk.checked){ view.az = con.l[0]*D2R; view.alt = con.l[1]*D2R; }
@@ -319,4 +430,19 @@
   });
 
   resize();
+})();
+
+// --- Panel (sidebar) toggle ---
+(function(){
+  const panel = document.querySelector('.panel');
+  const btn = document.getElementById('panelToggle');
+  function toggle(){
+    const hidden = panel.classList.toggle('hidden');
+    btn.classList.toggle('shifted', !hidden);
+    btn.title = hidden ? 'Show panel (H)' : 'Hide panel (H)';
+  }
+  btn.onclick = toggle;
+  document.addEventListener('keydown', e=>{
+    if ((e.key==='h'||e.key==='H') && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) toggle();
+  });
 })();
