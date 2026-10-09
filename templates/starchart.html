@@ -23,13 +23,24 @@
   <div class="row"><b class="flush">N</b><div class="switch" id="hemis"><div class="knob"></div></div><b class="flush">S</b></div>
   <div class="row"><span>Lat</span><input id="lat" class="field w-lat" type="text" value="41.88"><span>Lon</span><input id="lon" class="field w-lon" type="text" value="-87.63"></div>
   <div class="row"><input id="obsTime" class="field grow" type="datetime-local"><button class="btn btn-inline" id="nowBtn">Now</button></div>
-  <div id="info"></div>
   <button class="btn" id="north">Go to north pole</button>
   <button class="btn" id="south">Go to south pole</button>
   <div class="hint">Drag to pan · scroll to zoom · click a star for details</div>
 <div id="loadmsg" class="loadmsg" hidden>Loading star data…</div>
 </div>
 <div id="tip"></div>
+<aside id="infopanel" hidden>
+  <button class="info-close" id="infoClose" title="Close (Esc)">✕</button>
+  <div class="info-body">
+    <h2 id="infoTitle"></h2>
+    <p id="infoSub" class="info-sub"></p>
+    <div id="infoStats"></div>
+    <article id="infoArticle">
+      <h3>Fun facts</h3>
+      <ul id="infoFacts"></ul>
+    </article>
+  </div>
+</aside>
 <script src="/static/solarsystem.js"></script>
   <script src="/static/app.js"></script>
 </body>

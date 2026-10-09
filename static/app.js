@@ -2,12 +2,13 @@
 (async function main() {
   const msg = document.getElementById('loadmsg');
   msg.hidden = false;
-  let STARS, CONST, SOLAR_RAW;
+  let STARS, CONST, SOLAR_RAW, SPECDATA;
   try {
     const get = url => fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
-    [STARS, CONST, SOLAR_RAW] = await Promise.all([
-      get('/data/stars.json'), get('/data/constellations.json'), get('/data/solar-system.json')
+    [STARS, CONST, SOLAR_RAW, SPECDATA] = await Promise.all([
+      get('/data/stars.json'), get('/data/constellations.json'), get('/data/solar-system.json'), get('/data/reference.json')
     ]);
+    STARS = STARS.stars;
   } catch (err) {
     msg.innerHTML = 'Could not load star data (' + (err.message || err) + ').<br>' +
       'If you opened this file directly from disk, that is why — browsers block local data fetches.<br>' +
@@ -25,12 +26,58 @@
           el.w.value, el.w.rate_per_day, el.a_AU,
           el.e.value, el.e.rate_per_day, el.M.value, el.M.rate_per_day] };
   });
+  const mkBody = (name, col, H, facts) => ({ name, col, H, el:null, sun:name==='Sun', moon:name==='Moon', facts });
+  SOLAR_DATA.push(mkBody('Sun', '#ffdf80', -26.74, SOLAR_RAW.sunFacts || []));
+  SOLAR_DATA.push(mkBody('Moon', '#e8e8e8', -12.7, SOLAR_RAW.moonFacts || []));
 
   const TAU = Math.PI*2;
   const D2R = Math.PI/180;
   const canvas = document.getElementById('sky'), ctx = canvas.getContext('2d');
   const maglim = document.getElementById('maglim'), magval = document.getElementById('magval');
-  const labelsChk = document.getElementById('labels'), constl = document.getElementById('constl'), tip = document.getElementById('tip'), info = document.getElementById('info');
+  const labelsChk = document.getElementById('labels'), constl = document.getElementById('constl'), tip = document.getElementById('tip');
+  const panel = document.getElementById('infopanel'), panelTitle = document.getElementById('infoTitle'),
+        panelSub = document.getElementById('infoSub'), panelStats = document.getElementById('infoStats'), panelFacts = document.getElementById('infoFacts');
+  // --- auto info for any catalog star ---
+  const SPECTRAL = SPECDATA.spectralClasses
+    .map(c => [c.bvMax, c.letter, c.color, c.tempMin, c.tempMax, c.fact])
+    .sort((a,b) => a[0]-b[0]);
+  const SUN_TEMP = SPECDATA.sunTemp;
+  function spectOf(bv){ for (const s of SPECTRAL) if (bv <= s[0]) return s; return SPECTRAL[SPECTRAL.length-1]; }
+  let magRank = null;
+  function magRankOf(s){ if (!magRank) magRank = STARS.slice().sort((a,b)=>a[2]-b[2]); return magRank.indexOf(s); }
+  function starInfo(s){
+    const sp = spectOf(s[3]);
+    const ra = (s[0]/TAU*24), dec = s[1]*180/Math.PI;
+    const rank = magRankOf(s);
+    const stats = 'Mag <b>'+s[2].toFixed(2)+'</b>' + (rank>=0 ? ' · #'+(rank+1)+' of '+STARS.length+' catalog stars' : '')
+      + '<br>Spectral class <b>'+sp[1]+'</b> ('+sp[2]+') · B−V '+s[3].toFixed(2)
+      + '<br>Surface temp ≈ '+Math.round((sp[3]+sp[4])/2)+' K (est. from color)'
+      + '<br>RA '+ra.toFixed(2)+'h · Dec '+dec.toFixed(1)+'°';
+    const named = s[5] || null;
+    const facts = [
+      'Class ' + sp[1] + ' stars glow ' + sp[2] + ' — this one\'s B−V color index of ' + s[3].toFixed(2) + ' puts it there.',
+      'Estimated surface temperature: about ' + Math.round((sp[3]+sp[4])/2) + ' kelvin. Compare the Sun\'s '+SUN_TEMP.toLocaleString()+' K.',
+      'Class ' + sp[1] + ' stars ' + sp[5] + '.'
+    ];
+    if (named) facts.push(...named);
+    else if (s[4]) facts.push('Known since antiquity under the name “'+s[4]+'”.');
+    else facts.push('This star has no proper name in our catalog — it\'s catalogued by position and brightness only.');
+    return [s[4] || 'Unnamed star', 'Star', stats, facts];
+  }
+
+  function showInfo(title, sub, stats, facts){
+    panelTitle.textContent = title;
+    panelSub.textContent = sub || '';
+    panelStats.innerHTML = stats || '';
+    panelFacts.innerHTML = '';
+    const list = facts;
+    if (list && list.length) list.forEach(f => { const li = document.createElement('li'); li.textContent = f; panelFacts.appendChild(li); });
+    else panelFacts.innerHTML = '<li>More about this object coming soon — try another click!</li>';
+    panel.hidden = false;
+    panel.classList.add('open');
+  }
+  document.getElementById('infoClose').onclick = () => { panel.classList.remove('open'); setTimeout(()=>{ panel.hidden = true; }, 300); };
+  document.addEventListener('keydown', e=>{ if (e.key === 'Escape' && panel.classList.contains('open')) document.getElementById('infoClose').onclick(); });
 
   let view = { az: 0, alt: 0.78, ra: 0, dec: 1.35, scale: 400 };
   const horizonChk = document.getElementById('horizon'), hemisChk = document.getElementById('hemis'), latIn = document.getElementById('lat'), lonIn = document.getElementById('lon'), obsTime = document.getElementById('obsTime');
@@ -99,11 +146,7 @@
     const t = obsTime.value ? Date.parse(obsTime.value) : Date.now();
     return t/86400000 + 2440587.5 - 2451543.5;
   }
-  const SOLAR_BODIES = [
-    {name:'Sun', col:'#ffdf6e'},
-    {name:'Moon', col:'#eef0f4'},
-    ...SOLAR_DATA.map(p=>({name:p.name, col:p.col, el:p.el, H:p.H})),
-  ];
+  const SOLAR_BODIES = SOLAR_DATA.map(p=>({name:p.name, col:p.col, el:p.el, H:p.H, facts:p.facts}));
   function drawSolar(cx, cy){
     if (!solarChk.checked) return;
     solarHits = [];
@@ -353,7 +396,9 @@
     }
     if (best){
       const ph = bestPos.phase!=null && best.name!=='Moon' && best.name!=='Sun' ? ' · Phase '+(bestPos.phase*100).toFixed(0)+'%' : '';
-      info.innerHTML = '<b>'+best.name+'</b><br>Mag '+bestPos.mag.toFixed(2)+ph+'<br>RA '+(bestPos.ra/TAU*24).toFixed(2)+'h · Dec '+(bestPos.dec*180/Math.PI).toFixed(1)+'°';
+      showInfo(best.name, 'Solar System body',
+        'Mag <b>'+bestPos.mag.toFixed(2)+'</b>'+ph+'<br>RA '+(bestPos.ra/TAU*24).toFixed(2)+'h · Dec '+(bestPos.dec*180/Math.PI).toFixed(1)+'°',
+        best.facts);
       return;
     }
     for (const [sx,sy,s] of visible){
@@ -361,9 +406,7 @@
       if (d2<144 && d2<bd){ bd=d2; best=s; }
     }
     if (best){
-      info.innerHTML = best[4]
-        ? '<b>'+best[4]+'</b><br>Mag '+best[2].toFixed(2)+' · B−V '+best[3].toFixed(2)+'<br>RA '+(best[0]/TAU*24).toFixed(2)+'h · Dec '+(best[1]*180/Math.PI).toFixed(1)+'°'
-        : 'Unnamed star · mag '+best[2].toFixed(2)+' · B−V '+best[3].toFixed(2);
+      showInfo(...starInfo(best));
     }
   });
   let dragged=false;
@@ -407,8 +450,8 @@
         if (horizonChk.checked){ const [haz, halt] = eqToAltAz(p.ra, p.dec); view.az = haz; view.alt = halt; }
         else { view.ra = p.ra; view.dec = p.dec; }
         view.scale = Math.max(view.scale, 700); draw();
-        const kind = 'Solar System body';
-        info.innerHTML = '<b>'+pbody.name+'</b><br>'+kind+'<br>Mag '+p.mag.toFixed(2)+'<br>RA '+(p.ra/TAU*24).toFixed(2)+'h · Dec '+(p.dec*180/Math.PI).toFixed(1)+'°';
+        showInfo(pbody.name, 'Solar System body',
+          'Mag <b>'+p.mag.toFixed(2)+'</b><br>RA '+(p.ra/TAU*24).toFixed(2)+'h · Dec '+(p.dec*180/Math.PI).toFixed(1)+'°', pbody.facts);
         e.target.blur(); return;
       }
       const con = CONST.find(c=>c.n.toLowerCase().includes(q));
@@ -416,7 +459,7 @@
         if (horizonChk.checked){ view.az = con.l[0]*D2R; view.alt = con.l[1]*D2R; }
         else { view.ra = con.l[0]*D2R; view.dec = con.l[1]*D2R; }
         view.scale = Math.max(view.scale, 500); draw();
-        info.innerHTML = '<b>'+con.n+'</b><br>Constellation · one of the 88 IAU figures';
+        showInfo(con.n, 'Constellation', 'One of the 88 IAU figures.', con.facts);
         return;
       }
     }
@@ -424,8 +467,8 @@
       if (horizonChk.checked){ const [haz, halt] = eqToAltAz(hit[0], hit[1]); view.az = haz; view.alt = halt; }
       else { view.ra = hit[0]; view.dec = hit[1]; }
       view.scale = Math.max(view.scale, 700); draw();
-      info.innerHTML = '<b>'+hit[4]+'</b><br>Mag '+hit[2].toFixed(2)+' · B−V '+hit[3].toFixed(2)+'<br>RA '+(hit[0]/TAU*24).toFixed(2)+'h · Dec '+(hit[1]*180/Math.PI).toFixed(1)+'°';
-    } else info.innerHTML = 'No star named “'+e.target.value+'” found.';
+      showInfo(...starInfo(hit));
+    } else showInfo('Not found', 'No star named “'+e.target.value+'” in the catalog.');
     e.target.blur();
   });
 
