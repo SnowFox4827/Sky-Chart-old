@@ -2,13 +2,13 @@
 (async function main() {
   const msg = document.getElementById('loadmsg');
   msg.hidden = false;
-  let STARS, CONST, SOLAR_RAW, SPECDATA;
+  let STARS, CONST, SOLAR_RAW, SPECDATA, DSOS;
   try {
     const get = url => fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
-    [STARS, CONST, SOLAR_RAW, SPECDATA] = await Promise.all([
-      get('/data/stars.json'), get('/data/constellations.json'), get('/data/solar-system.json'), get('/data/reference.json')
+    [STARS, CONST, SOLAR_RAW, SPECDATA, DSOS] = await Promise.all([
+      get('/data/stars.json'), get('/data/constellations.json'), get('/data/solar-system.json'), get('/data/reference.json'), get('/data/dso.json')
     ]);
-    STARS = STARS.stars;
+    STARS = STARS.stars; DSOS = DSOS.dso;
   } catch (err) {
     msg.innerHTML = 'Could not load star data (' + (err.message || err) + ').<br>' +
       'If you opened this file directly from disk, that is why — browsers block local data fetches.<br>' +
@@ -139,9 +139,46 @@
   }
   function magToRadius(m){ return Math.max(0.55, 6.2 - m*1.05); }
 
-  const solarChk = document.getElementById('solarChk');
+  const solarChk = document.getElementById('solarChk'), dsoChk = document.getElementById('dsoChk');
   let visible = [];
   let solarHits = [];
+  let dsoHits = [];
+  function dsoInfo(d){
+    const stats = 'Type <b>'+d.type+'</b> · Mag <b>'+d.mag.toFixed(1)+'</b><br>Distance <b>'+d.dist+'</b><br>RA '+(d.ra/15).toFixed(2)+'h · Dec '+d.dec.toFixed(1)+'°';
+    return [d.name, d.type.charAt(0).toUpperCase()+d.type.slice(1), stats, d.facts];
+  }
+  function drawDSOs(cx, cy){
+    dsoHits = [];
+    if (!dsoChk.checked) return;
+    ctx.font = '11px Segoe UI, sans-serif'; ctx.textBaseline = 'middle';
+    const maxR2 = (Math.hypot(W/2, H/2)/view.scale + 0.2)**2;
+    for (const d of DSOS){
+      const pt = project(d.ra*D2R, d.dec*D2R);
+      if (pt[0]*pt[0] + pt[1]*pt[1] > maxR2) continue;
+      const sx = cx + pt[0]*view.scale, sy = cy + pt[1]*view.scale;
+      let alpha = 1;
+      if (horizonChk.checked){
+        const la = observerLat(), L = lst();
+        const alt = Math.asin(Math.sin(d.dec*D2R)*Math.sin(la) + Math.cos(d.dec*D2R)*Math.cos(la)*Math.cos(L - d.ra*D2R));
+        if (alt < 0) alpha = 0.22;
+      }
+      ctx.globalAlpha = alpha;
+      const r = 5.5;
+      ctx.globalCompositeOperation = 'lighter';
+      const gr = ctx.createRadialGradient(sx,sy,0,sx,sy,r*3);
+      gr.addColorStop(0, 'rgba(120,255,200,0.45)'); gr.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(sx,sy,r*3,0,TAU); ctx.fill();
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.fillStyle = '#7dffbe';
+      ctx.beginPath(); ctx.moveTo(sx, sy-r); ctx.lineTo(sx+r*0.7, sy); ctx.lineTo(sx, sy+r); ctx.lineTo(sx-r*0.7, sy); ctx.closePath(); ctx.fill();
+      ctx.globalAlpha = 1;
+      dsoHits.push([sx, sy, d]);
+      if (labelsChk.checked){
+        ctx.fillStyle = 'rgba(160,255,210,0.95)';
+        ctx.fillText(d.name, sx + r + 4, sy);
+      }
+    }
+  }
   function dayNumber(){
     const t = obsTime.value ? Date.parse(obsTime.value) : Date.now();
     return t/86400000 + 2440587.5 - 2451543.5;
@@ -223,6 +260,7 @@
     }
     ctx.globalCompositeOperation = 'source-over';
     drawSolar(cx, cy);
+    drawDSOs(cx, cy);
     const placed = [];
     if (labelsChk.checked){
       ctx.font = '11px Segoe UI, sans-serif'; ctx.textBaseline = 'middle';
@@ -385,6 +423,16 @@
         tip.innerHTML = '<b>'+(best[4]||'Unnamed star')+'</b><br>mag '+best[2].toFixed(2)+' · B−V '+best[3].toFixed(2);
         canvas.style.cursor='pointer';
       } else { tip.style.display='none'; canvas.style.cursor='grab'; }
+      if (best) return;
+      for (const [sx,sy,d] of dsoHits){
+        const d2 = (e.clientX-sx)**2 + (e.clientY-sy)**2;
+        if (d2 < 169){
+          tip.style.display='block'; tip.style.left=(e.clientX+14)+'px'; tip.style.top=(e.clientY+14)+'px';
+          tip.innerHTML = '<b>'+d.name+'</b><br>'+d.type+' · mag '+d.mag.toFixed(1);
+          canvas.style.cursor='pointer';
+          return;
+        }
+      }
     }
   });
   canvas.addEventListener('click', e=>{
@@ -399,6 +447,14 @@
       showInfo(best.name, 'Solar System body',
         'Mag <b>'+bestPos.mag.toFixed(2)+'</b>'+ph+'<br>RA '+(bestPos.ra/TAU*24).toFixed(2)+'h · Dec '+(bestPos.dec*180/Math.PI).toFixed(1)+'°',
         best.facts);
+      return;
+    }
+    for (const [sx,sy,d] of dsoHits){
+      const d2=(e.clientX-sx)**2+(e.clientY-sy)**2;
+      if (d2<169 && d2<bd){ bd=d2; best=d; }
+    }
+    if (best){
+      showInfo(...dsoInfo(best));
       return;
     }
     for (const [sx,sy,s] of visible){
@@ -427,6 +483,7 @@
   document.getElementById('night').addEventListener('change', e=>{ document.documentElement.classList.toggle('night', e.target.checked); });
   for (const el of [latIn, lonIn, obsTime]) el.addEventListener('change', draw);
   solarChk.addEventListener('change', draw);
+  dsoChk.addEventListener('change', draw);
   document.getElementById('nowBtn').onclick = ()=>{ setNow(); draw(); };
   document.getElementById('north').onclick = ()=>{
     if (horizonChk.checked){ view.az=0; view.alt=Math.max(0.3,observerLat()); }
@@ -452,6 +509,14 @@
         view.scale = Math.max(view.scale, 700); draw();
         showInfo(pbody.name, 'Solar System body',
           'Mag <b>'+p.mag.toFixed(2)+'</b><br>RA '+(p.ra/TAU*24).toFixed(2)+'h · Dec '+(p.dec*180/Math.PI).toFixed(1)+'°', pbody.facts);
+        e.target.blur(); return;
+      }
+      const dsoHit = DSOS.find(d=>d.name.toLowerCase().includes(q));
+      if (dsoHit){
+        if (horizonChk.checked){ const [haz, halt] = eqToAltAz(dsoHit.ra*D2R, dsoHit.dec*D2R); view.az = haz; view.alt = halt; }
+        else { view.ra = dsoHit.ra*D2R; view.dec = dsoHit.dec*D2R; }
+        view.scale = Math.max(view.scale, 600); draw();
+        showInfo(...dsoInfo(dsoHit));
         e.target.blur(); return;
       }
       const con = CONST.find(c=>c.n.toLowerCase().includes(q));
