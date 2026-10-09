@@ -1,1 +1,5120 @@
-[{"n":"Andromeda","s":[[["s",62],["s",56],["s",227],["s",55]],[["s",814],["s",566],["s",753],["s",227],["s",752],["s",715],["s",340]],[["s",715],["s",615],["s",417]],[["s",56],["s",445],["s",947],["s",679],["s",320]],[["s",615],["s",1569]]],"l":[0.75,43]},{"n":"Air\u2005Pump","s":[[["s",928],["s",701],["s",1017]]],"l":[156,-36]},{"n":"Bird\u2005of\u2005Paradise","s":[[["s",425],["s",1118],["s",658],["s",449]]],"l":[-120,-74]},{"n":"Aquarius","s":[[["s",406],["s",1176],["s",160],["s",166],["s",451],["s",347],["s",546],["s",379],["s",826],["s",355]],[["s",160],["s",713]],[["s",166],["s",621]],[["s",347],["s",1292]],[["s",503],["s",826],["s",1326]]],"l":[-22.5,-5]},{"n":"Eagle","s":[[["s",118],["s",11],["s",370],["s",221],["s",457],["s",250],["s",173],["s",11],["s",250],["s",272]]],"l":[-69,8]},{"n":"Altar","s":[[["s",236],["s",330],["s",397],["s",198],["s",561],["s",143],["s",142]]],"l":[-102,-56]},{"n":"Ram","s":[[["s",331],["s",50],["s",105],["s",459]]],"l":[42,22]},{"n":"Charioteer","s":[[["s",42],["s",5],["s",208],["s",112],["s",28],["s",107],["s",42],["s",373],["s",5],["s",183],["s",358]]],"l":[82.5,37]},{"n":"Herdsman","s":[[["s",918],["s",110],["s",2],["s",316],["s",185],["s",285],["s",277],["s",82],["s",2],["s",405]],[["s",185],["s",623],["s",950],["s",545],["s",623]]],"l":[-136.5,35]},{"n":"Graving\u2005tool","s":[[["s",1749],["s",850],["s",1693],["s",968]]],"l":[73.5,-42]},{"n":"Giraffe","s":[[["s",841],["s",537],["s",684],["s",1004],["s",802],["s",635]],[["s",684],["s",1207],["s",969]]],"l":[84,72]},{"n":"Crab","s":[[["s",685],["s",491],["s",1086],["s",538]],[["s",491],["s",301]]],"l":[128.25,27]},{"n":"Hunting\u2005Dogs","s":[[["s",3263],["s",666]]],"l":[-168,43]},{"n":"Great\u2005Dog","s":[[["s",48],["s",0],["s",181],["s",38],["s",283],["s",23],["s",180]],[["s",89],["s",38]],[["s",0],["s",787],["s",584],["s",570],["s",787]]],"l":[97.5,-26]},{"n":"Little\u2005Dog","s":[[["s",7],["s",155]]],"l":[109.5,5]},{"n":"Capricorn","s":[[["s",728],["s",187],["s",1235],["s",602],["s",597],["s",399],["s",146],["s",361],["s",704],["s",574],["s",728]]],"l":[-45,-22]},{"n":"Keel","s":[[["s",204],["s",1],["s",29],["s",231],["s",121],["s",234],["s",255],["s",67],["s",40],["s",276],["s",33],["s",45],["s",67]],[["s",121],["s",1036],["s",1845],["s",1009],["s",485],["s",404],["s",234]]],"l":[144,-66]},{"n":"Cassiopeia","s":[[["s",246],["s",109],["s",64],["s",72],["s",75]]],"l":[-6,55.5]},{"n":"Centaur","s":[[["s",469],["s",100],["s",473],["s",65],["s",76],["s",96],["s",279],["s",262],["s",54],["s",80],["s",200]],[["s",262],["s",124]],[["s",21],["s",76],["s",10]],[["s",473],["s",508],["s",1761]]],"l":[-160.5,-40]},{"n":"Cepheus","s":[[["s",638],["s",264],["s",90],["s",660],["s",625],["s",257],["s",565],["s",290],["s",215],["s",219],["s",90]],[["s",219],["s",290]]],"l":[-22.5,71]},{"n":"Whale","s":[[["s",278],["s",1390],["s",717],["s",690],["s",1141],["s",94],["s",278],["s",568],["s",8527],["s",380],["s",282],["s",52],["s",310],["s",275],["s",325],["s",380]]],"l":[28.5,-5]},{"n":"Chamaeleon","s":[[["s",548],["s",587],["s",2727],["s",665],["s",1406],["s",587]]],"l":[-171,-81]},{"n":"Compass","s":[[["s",564],["s",209],["s",896]]],"l":[-142.5,-67]},{"n":"Dove","s":[[["s",438],["s",196],["s",106],["s",447]],[["s",196],["s",497]]],"l":[85.5,-39]},{"n":"Berenice's\u2005Hair","s":[[["s",741],["s",654],["s",773]]],"l":[-166.5,24]},{"n":"Southern\u2005Crown","s":[[["s",1342],["s",659],["s",590],["s",582],["s",992],["s",1190],["s",3233],["s",1042]]],"l":[-78,-40]},{"n":"Northern\u2005Crown","s":[[["s",609],["s",348],["s",68],["s",416],["s",1010],["s",610],["s",1582]]],"l":[-121.5,32]},{"n":"Crow","s":[[["s",533],["s",182],["s",101],["s",165],["s",108],["s",182]]],"l":[-174,-19.5]},{"n":"Cup","s":[[["s",1133],["s",1301],["s",312],["s",572],["s",873],["s",1787],["s",557],["s",1149],["s",1984]],[["s",312],["s",557]]],"l":[174.75,-15]},{"n":"Cross","s":[[["s",19],["s",130]],[["s",12],["s",25]]],"l":[-166.5,-62]},{"n":"Swan","s":[[["s",214],["s",92],["s",71],["s",149],["s",389],["s",412]],[["s",20],["s",71],["s",467],["s",186]]],"l":[-52.5,50]},{"n":"Dolphin","s":[[["s",541],["s",342],["s",398],["s",1955],["s",845],["s",342]]],"l":[-51,6]},{"n":"Goldfish","s":[[["s",683],["s",233],["s",385],["s",755],["s",1073],["s",385],["s",1144],["s",233]]],"l":[76.5,-64]},{"n":"Dragon","s":[[["s",377],["s",73],["s",131],["s",1382],["s",377],["s",190],["s",645],["s",206],["s",120],["s",528],["s",232],["s",350],["s",440],["s",420]],[["s",645],["s",308]],[["s",190],["s",435]]],"l":[-91.5,64]},{"n":"Colt","s":[[["s",479],["s",889],["s",1138]]],"l":[-39.75,11.5]},{"n":"Eridanus","s":[[["s",127],["s",524],["s",483],["s",543],["s",167],["s",839],["s",293],["s",371],["s",463],["s",664],["s",877],["s",569],["s",362],["s",682],["s",641],["s",414],["s",504],["s",305],["s",620],["s",987],["s",681],["s",153],["s",583],["s",663],["s",311],["s",357],["s",8]]],"l":[52.5,-18]},{"n":"Furnace","s":[[["s",409],["s",858],["s",1110]]],"l":[40.5,-28]},{"n":"Twins","s":[[["s",235],["s",150],["s",188],["s",820],["s",24],["s",17],["s",556],["s",289],["s",525],["s",44],["s",248]],[["s",289],["s",318]]],"l":[107.25,23.5]},{"n":"Crane","s":[[["s",591],["s",287],["s",59],["s",598],["s",31],["s",59]],[["s",511],["s",1269],["s",890],["s",178]]],"l":[-18,-41.5]},{"n":"Hercules","s":[[["s",381],["s",128],["s",134],["s",281],["s",632],["s",476],["s",657],["s",1020]],[["s",134],["s",477]],[["s",281],["s",203]],[["s",450],["s",614],["s",203],["s",477],["s",199],["s",268],["s",363],["s",433]],[["s",129],["s",128]]],"l":[-106.5,35]},{"n":"Clock","s":[[["s",436],["s",2545],["s",2291],["s",2074],["s",1858],["s",1572]]],"l":[51,-52]},{"n":"Sea\u2005Serpent","s":[[["s",252],["s",772],["s",722],["s",861],["s",607],["s",252],["s",192],["s",465],["s",468],["s",49],["s",586],["s",333],["s",423],["s",193],["s",302],["s",710],["s",171],["s",223],["s",834]]],"l":[150,-22]},{"n":"Hydrus","s":[[["s",135],["s",226],["s",592],["s",567],["s",1109],["s",148]]],"l":[34.5,-72]},{"n":"Indian","s":[[["s",195],["s",932],["s",351],["s",818],["s",813],["s",195]]],"l":[-42,-55.5]},{"n":"Lizard","s":[[["s",837],["s",390],["s",766],["s",976],["s",945],["s",924],["s",766],["s",977],["s",837]],[["s",945],["s",923],["s",612]]],"l":[-18,47]},{"n":"Lion","s":[[["s",22],["s",280],["s",51],["s",97],["s",63],["s",244],["s",22]],[["s",51],["s",271],["s",460],["s",169]]],"l":[159,15]},{"n":"Little\u2005Lion","s":[[["s",905],["s",1161],["s",408],["s",631],["s",905],["s",958]]],"l":[157.5,30]},{"n":"Hare","s":[[["s",1100],["s",366],["s",306],["s",99],["s",230],["s",211],["s",133],["s",322],["s",386]],[["s",785],["s",230],["s",708]]],"l":[88.5,-25]},{"n":"Balance","s":[[["s",224],["s",125],["s",103],["s",475],["s",329],["s",349]],[["s",125],["s",475]]],"l":[-129,-26]},{"n":"Wolf","s":[[["s",509],["s",1091],["s",317],["s",216],["s",111],["s",79],["s",263],["s",695],["s",251],["s",132],["s",267],["s",643]],[["s",216],["s",132]]],"l":[-131.25,-35]},{"n":"Lynx","s":[[["s",851],["s",770],["s",1026],["s",675],["s",498],["s",419],["s",201]]],"l":[121.5,49]},{"n":"Lyre","s":[[["s",763],["s",1012],["s",4],["s",763],["s",648],["s",225],["s",296],["s",763]]],"l":[-81,30]},{"n":"Mensa","s":[[["s",1778],["s",2004],["s",2754],["s",2296]]],"l":[82.5,-80]},{"n":"Microscope","s":[[["s",1432],["s",1852],["s",1291],["s",1153],["s",1107],["s",1432]]],"l":[-43.5,-37]},{"n":"Unicorn","s":[[["s",489],["s",788],["s",613],["s",387],["s",516]],[["s",613],["s",894],["s",805],["s",881],["s",1083]]],"l":[114.75,-6]},{"n":"Fly","s":[[["s",341],["s",558],["s",114],["s",184],["s",334],["s",432],["s",114]]],"l":[-165,-73]},{"n":"Level","s":[[["s",1174],["s",875],["s",529],["s",1079],["s",1174]]],"l":[-117,-52]},{"n":"Octant","s":[[["s",730],["s",603],["s",378],["s",730]]],"l":[-60,-80]},{"n":"Ophiuchus","s":[[["s",241],["s",384],["s",126],["s",60],["s",212],["s",421],["s",119],["s",217],["s",95],["s",87]],[["s",212],["s",95],["s",712],["s",644],["s",897],["s",989]],[["s",126],["s",87],["s",228],["s",702]]],"l":[-102,3]},{"n":"Orion","s":[[["s",828],["s",804],["s",1059],["s",860],["s",594],["s",9],["s",27],["s",1058]],[["s",879],["s",365],["s",352],["s",210],["s",768],["s",1058],["s",555],["s",1072],["s",1295]],[["s",6],["s",247],["s",74],["s",27],["s",254],["s",9],["s",32],["s",57]],[["s",32],["s",30],["s",74]]],"l":[84,13]},{"n":"Peacock","s":[[["s",46],["s",269],["s",309],["s",647],["s",776],["s",749],["s",335],["s",530],["s",510],["s",269],["s",639]]],"l":[-63,-62]},{"n":"Pegasus","s":[[["s",705],["s",163],["s",88],["s",55],["s",138],["s",93],["s",633],["s",265],["s",298],["s",83]],[["s",93],["s",88],["s",292],["s",512],["s",400],["s",611]]],"l":[-25.5,16]},{"n":"Perseus","s":[[["s",427],["s",141],["s",513],["s",158],["s",392],["s",179],["s",734],["s",35],["s",161],["s",391],["s",482],["s",547],["s",407],["s",61],["s",1025],["s",238],["s",1111],["s",4430],["s",61]],[["s",671],["s",593],["s",496],["s",179]],[["s",547],["s",579],["s",523]]],"l":[66,45]},{"n":"Phoenix","s":[[["s",85],["s",237],["s",260],["s",481],["s",488],["s",237],["s",458],["s",85]]],"l":[16.5,-43]},{"n":"Painter","s":[[["s",220],["s",914],["s",437]]],"l":[82.5,-50]},{"n":"Fishes","s":[[["s",1096],["s",926],["s",1178],["s",1096],["s",1081],["s",336],["s",680],["s",418],["s",1024],["s",857],["s",1343],["s",2073],["s",689],["s",848],["s",542],["s",604],["s",698],["s",1724],["s",364],["s",1537],["s",910],["s",1538],["s",604]],[["s",364],["s",898]]],"l":[19.5,15]},{"n":"Southern\u2005Fish","s":[[["s",626],["s",18],["s",634],["s",876],["s",714],["s",922],["s",778],["s",1670],["s",922],["s",626]]],"l":[-27,-29]},{"n":"Poop\u2005Deck","s":[[["s",204],["s",116],["s",1076],["s",410],["s",245],["s",630],["s",139],["s",66],["s",33]],[["s",245],["s",815],["s",490],["s",1076]]],"l":[111,-46]},{"n":"Compass","s":[[["s",66],["s",507],["s",353],["s",532]]],"l":[132,-24]},{"n":"Net","s":[[["s",243],["s",849],["s",979],["s",426],["s",243]]],"l":[55.5,-61]},{"n":"Arrow","s":[[["s",811],["s",354],["s",291]],[["s",812],["s",354]]],"l":[-69,18]},{"n":"Archer","s":[[["s",191],["s",36],["s",117],["s",137],["s",434]],[["s",500],["s",501],["s",102],["s",207],["s",137]],[["s",596],["s",796],["s",1137],["s",1013],["s",1669],["s",1386],["s",53],["s",207],["s",117],["s",170],["s",36],["s",102],["s",242],["s",53],["s",388],["s",154],["s",1412],["s",478],["s",942]],[["s",388],["s",297],["s",1385],["s",53]]],"l":[-67.5,-34]},{"n":"Scorpion","s":[[["s",157],["s",77],["s",98]],[["s",77],["s",159],["s",16],["s",136],["s",78],["s",177],["s",339],["s",240],["s",41],["s",172],["s",84],["s",26]]],"l":[-111,-38]},{"n":"Sculptor","s":[[["s",716],["s",1014],["s",827],["s",800]]],"l":[1.5,-33]},{"n":"Shield","s":[[["s",444],["s",646],["s",1136],["s",1104],["s",444]]],"l":[-78,-12.5]},{"n":"Serpent","s":[[["s",345],["s",930],["s",577],["s",442],["s",345],["s",411],["s",104],["s",368],["s",119]]],"l":[-79.5,3]},{"n":"Serpent","s":[[["s",87],["s",304],["s",241],["s",1230],["s",218],["s",1043]]],"l":[-79.5,3]},{"n":"Sextant","s":[[["s",895],["s",1759],["s",2033],["s",1783]]],"l":[157.5,-7]},{"n":"Bull","s":[[["s",168],["s",13],["s",258],["s",343],["s",393],["s",300],["s",28]],[["s",343],["s",261],["s",375],["s",471]],[["s",375],["s",332],["s",707]]],"l":[54,15]},{"n":"Telescope","s":[[["s",941],["s",286],["s",581]]],"l":[-82.5,-54]},{"n":"Triangle","s":[[["s",266],["s",174],["s",536],["s",266]]],"l":[27,34]},{"n":"Southern\u2005Triangle","s":[[["s",43],["s",140],["s",151],["s",43]]],"l":[-120,-67.5]},{"n":"Toucan","s":[[["s",152],["s",519],["s",779],["s",652],["s",912],["s",934],["s",152]]],"l":[-12,-64]},{"n":"Big\u2005Dipper","s":[[["s",239],["s",37],["s",81],["s",86],["s",239],["s",34],["s",70],["s",39]],[["s",86],["s",360],["s",284],["s",751]],[["s",360],["s",175],["s",189]],[["s",175],["s",273]],[["s",37],["s",344],["s",249],["s",403],["s",81]],[["s",81],["s",971],["s",205],["s",197]],[["s",315],["s",205]]],"l":[165,48]},{"n":"Little\u2005Dipper","s":[[["s",711],["s",1533],["s",176],["s",58],["s",711],["s",637],["s",775],["s",47]]],"l":[-133.5,68]},{"n":"Sails","s":[[["s",45],["s",91],["s",295],["s",113],["s",439],["s",328],["s",69],["s",33]]],"l":[143.25,-46]},{"n":"Virgin","s":[[["s",544],["s",323],["s",466],["s",122],["s",797],["s",15],["s",562],["s",455]],[["s",145],["s",256],["s",122]],[["s",797],["s",253],["s",656],["s",376]]],"l":[-160.5,-4]},{"n":"Flying\u2005Fish","s":[[["s",520],["s",395],["s",771],["s",506],["s",401],["s",771],["s",520]]],"l":[111,-73]},{"n":"Little\u2005Fox","s":[[["s",1219],["s",856],["s",993],["s",1095],["s",919]]],"l":[-64.5,21]}]
+[
+ {
+  "n": "Andromeda",
+  "s": [
+   [
+    [
+     "s",
+     62
+    ],
+    [
+     "s",
+     56
+    ],
+    [
+     "s",
+     227
+    ],
+    [
+     "s",
+     55
+    ]
+   ],
+   [
+    [
+     "s",
+     814
+    ],
+    [
+     "s",
+     566
+    ],
+    [
+     "s",
+     753
+    ],
+    [
+     "s",
+     227
+    ],
+    [
+     "s",
+     752
+    ],
+    [
+     "s",
+     715
+    ],
+    [
+     "s",
+     340
+    ]
+   ],
+   [
+    [
+     "s",
+     715
+    ],
+    [
+     "s",
+     615
+    ],
+    [
+     "s",
+     417
+    ]
+   ],
+   [
+    [
+     "s",
+     56
+    ],
+    [
+     "s",
+     445
+    ],
+    [
+     "s",
+     947
+    ],
+    [
+     "s",
+     679
+    ],
+    [
+     "s",
+     320
+    ]
+   ],
+   [
+    [
+     "s",
+     615
+    ],
+    [
+     "s",
+     1569
+    ]
+   ]
+  ],
+  "l": [
+   0.75,
+   43
+  ],
+  "facts": [
+   "Home to the Andromeda Galaxy, the most distant thing visible to the naked eye at 2.5 million light-years.",
+   "The princess of the myth \u2014 chained to a rock as a sacrifice before Perseus rescued her.",
+   "Its brightest star, Alpheratz, technically belongs to the Square of Pegasus."
+  ]
+ },
+ {
+  "n": "Air\u2005Pump",
+  "s": [
+   [
+    [
+     "s",
+     928
+    ],
+    [
+     "s",
+     701
+    ],
+    [
+     "s",
+     1017
+    ]
+   ]
+  ],
+  "l": [
+   156,
+   -36
+  ],
+  "facts": [
+   "One of 14 constellations invented by Nicolas-Louis de Lacaille in the 1750s.",
+   "Named after the air pump, an 18th-century scientific instrument.",
+   "Contains the planetary nebula NGC 3132, nicknamed the Eight-Burst Nebula."
+  ]
+ },
+ {
+  "n": "Bird\u2005of\u2005Paradise",
+  "s": [
+   [
+    [
+     "s",
+     425
+    ],
+    [
+     "s",
+     1118
+    ],
+    [
+     "s",
+     658
+    ],
+    [
+     "s",
+     449
+    ]
+   ]
+  ],
+  "l": [
+   -120,
+   -74
+  ],
+  "facts": [
+   "Named after the spectacular birds of paradise New Guinea explorers brought back to Europe.",
+   "Created by Dutch navigators Keyser and de Houtman around 1600.",
+   "One of the southern constellations invisible from most of the USA."
+  ]
+ },
+ {
+  "n": "Aquarius",
+  "s": [
+   [
+    [
+     "s",
+     406
+    ],
+    [
+     "s",
+     1176
+    ],
+    [
+     "s",
+     160
+    ],
+    [
+     "s",
+     166
+    ],
+    [
+     "s",
+     451
+    ],
+    [
+     "s",
+     347
+    ],
+    [
+     "s",
+     546
+    ],
+    [
+     "s",
+     379
+    ],
+    [
+     "s",
+     826
+    ],
+    [
+     "s",
+     355
+    ]
+   ],
+   [
+    [
+     "s",
+     160
+    ],
+    [
+     "s",
+     713
+    ]
+   ],
+   [
+    [
+     "s",
+     166
+    ],
+    [
+     "s",
+     621
+    ]
+   ],
+   [
+    [
+     "s",
+     347
+    ],
+    [
+     "s",
+     1292
+    ]
+   ],
+   [
+    [
+     "s",
+     503
+    ],
+    [
+     "s",
+     826
+    ],
+    [
+     "s",
+     1326
+    ]
+   ]
+  ],
+  "l": [
+   -22.5,
+   -5
+  ],
+  "facts": [
+   "The water-bearer of the zodiac, associated with floods and the rainy season.",
+   "Its Eta Aquarid meteor shower comes from debris of Halley's Comet.",
+   "The great globular cluster M2 floats here, 40,000 light-years away."
+  ]
+ },
+ {
+  "n": "Eagle",
+  "s": [
+   [
+    [
+     "s",
+     118
+    ],
+    [
+     "s",
+     11
+    ],
+    [
+     "s",
+     370
+    ],
+    [
+     "s",
+     221
+    ],
+    [
+     "s",
+     457
+    ],
+    [
+     "s",
+     250
+    ],
+    [
+     "s",
+     173
+    ],
+    [
+     "s",
+     11
+    ],
+    [
+     "s",
+     250
+    ],
+    [
+     "s",
+     272
+    ]
+   ]
+  ],
+  "l": [
+   -69,
+   8
+  ],
+  "facts": [
+   "Contains the Eagle Nebula, home of the famous Pillars of Creation.",
+   "The star Altair anchors the Summer Triangle and spins once every 9 hours, fast enough to visibly flatten it.",
+   "In mythology it was Zeus's eagle, bearer of his thunderbolts."
+  ]
+ },
+ {
+  "n": "Altar",
+  "s": [
+   [
+    [
+     "s",
+     236
+    ],
+    [
+     "s",
+     330
+    ],
+    [
+     "s",
+     397
+    ],
+    [
+     "s",
+     198
+    ],
+    [
+     "s",
+     561
+    ],
+    [
+     "s",
+     143
+    ],
+    [
+     "s",
+     142
+    ]
+   ]
+  ],
+  "l": [
+   -102,
+   -56
+  ],
+  "facts": [
+   "The celestial altar of the gods, on which they swore oaths before battling the Titans.",
+   "Lies in the Milky Way near the galactic center, rich in star clusters.",
+   "One of the 48 classical constellations of Ptolemy, still official today."
+  ]
+ },
+ {
+  "n": "Ram",
+  "s": [
+   [
+    [
+     "s",
+     331
+    ],
+    [
+     "s",
+     50
+    ],
+    [
+     "s",
+     105
+    ],
+    [
+     "s",
+     459
+    ]
+   ]
+  ],
+  "l": [
+   42,
+   22
+  ],
+  "facts": [
+   "The golden-fleeced ram of the Argonaut legend.",
+   "Its brightest star, Hamal, means 'the head of the ram' in Arabic.",
+   "The First Point of Aries, the zero mark of right ascension, sat here in antiquity \u2014 precession has since carried it into the Fishes."
+  ]
+ },
+ {
+  "n": "Charioteer",
+  "s": [
+   [
+    [
+     "s",
+     42
+    ],
+    [
+     "s",
+     5
+    ],
+    [
+     "s",
+     208
+    ],
+    [
+     "s",
+     112
+    ],
+    [
+     "s",
+     28
+    ],
+    [
+     "s",
+     107
+    ],
+    [
+     "s",
+     42
+    ],
+    [
+     "s",
+     373
+    ],
+    [
+     "s",
+     5
+    ],
+    [
+     "s",
+     183
+    ],
+    [
+     "s",
+     358
+    ]
+   ]
+  ],
+  "l": [
+   82.5,
+   37
+  ],
+  "facts": [
+   "Usually drawn as a man carrying a goat on his shoulder \u2014 Capella, the 'Goat Star'.",
+   "Capella is actually four stars: two giants and two red dwarfs.",
+   "Holds Menkalinan, a famous eclipsing binary of changing brightness."
+  ]
+ },
+ {
+  "n": "Herdsman",
+  "s": [
+   [
+    [
+     "s",
+     918
+    ],
+    [
+     "s",
+     110
+    ],
+    [
+     "s",
+     2
+    ],
+    [
+     "s",
+     316
+    ],
+    [
+     "s",
+     185
+    ],
+    [
+     "s",
+     285
+    ],
+    [
+     "s",
+     277
+    ],
+    [
+     "s",
+     82
+    ],
+    [
+     "s",
+     2
+    ],
+    [
+     "s",
+     405
+    ]
+   ],
+   [
+    [
+     "s",
+     185
+    ],
+    [
+     "s",
+     623
+    ],
+    [
+     "s",
+     950
+    ],
+    [
+     "s",
+     545
+    ],
+    [
+     "s",
+     623
+    ]
+   ]
+  ],
+  "l": [
+   -136.5,
+   35
+  ],
+  "facts": [
+   "Shaped like a kite chasing the Great Bear around the pole.",
+   "Arcturus, its anchor star, is the brightest star north of the celestial equator.",
+   "Arcturus's light opened the 1933 Chicago World's Fair, having left the star in 1893 \u2014 the year of the previous fair."
+  ]
+ },
+ {
+  "n": "Graving\u2005tool",
+  "s": [
+   [
+    [
+     "s",
+     1749
+    ],
+    [
+     "s",
+     850
+    ],
+    [
+     "s",
+     1693
+    ],
+    [
+     "s",
+     968
+    ]
+   ]
+  ],
+  "l": [
+   73.5,
+   -42
+  ],
+  "facts": [
+   "The engraver's tool, invented by Lacaille to honor the draughtsman's craft.",
+   "Split from the larger figure of the Ship long ago.",
+   "One of the faintest of the 88 constellations."
+  ]
+ },
+ {
+  "n": "Giraffe",
+  "s": [
+   [
+    [
+     "s",
+     841
+    ],
+    [
+     "s",
+     537
+    ],
+    [
+     "s",
+     684
+    ],
+    [
+     "s",
+     1004
+    ],
+    [
+     "s",
+     802
+    ],
+    [
+     "s",
+     635
+    ]
+   ],
+   [
+    [
+     "s",
+     684
+    ],
+    [
+     "s",
+     1207
+    ],
+    [
+     "s",
+     969
+    ]
+   ]
+  ],
+  "l": [
+   84,
+   72
+  ],
+  "facts": [
+   "Camelopardalis, the giraffe \u2014 a faint patch of sky with no stars brighter than 4th magnitude.",
+   "Named by Petrus Plancius in 1613, replacing an older 'Camel' figure.",
+   "Contains NGC 2403, one of the brightest galaxies outside the Messier list."
+  ]
+ },
+ {
+  "n": "Crab",
+  "s": [
+   [
+    [
+     "s",
+     685
+    ],
+    [
+     "s",
+     491
+    ],
+    [
+     "s",
+     1086
+    ],
+    [
+     "s",
+     538
+    ]
+   ],
+   [
+    [
+     "s",
+     491
+    ],
+    [
+     "s",
+     301
+    ]
+   ]
+  ],
+  "l": [
+   128.25,
+   27
+  ],
+  "facts": [
+   "Cancer, the crab sent by Hera to nip Hercules \u2014 it was crushed, then immortalized in the sky.",
+   "Contains the Beehive Cluster, visible to the naked eye as a fuzzy patch since antiquity.",
+   "The Tropic of Cancer got its name because the Sun passed through this constellation at the June solstice."
+  ]
+ },
+ {
+  "n": "Hunting\u2005Dogs",
+  "s": [
+   [
+    [
+     "s",
+     3263
+    ],
+    [
+     "s",
+     666
+    ]
+   ]
+  ],
+  "l": [
+   -168,
+   43
+  ],
+  "facts": [
+   "Canes Venatici, added by Hevelius in 1687 from stars once assigned to the Great Bear.",
+   "Holds M51, the Whirlpool Galaxy \u2014 the first galaxy recognized as a spiral.",
+   "Cor Caroli, 'Charles's Heart', honors King Charles I of England."
+  ]
+ },
+ {
+  "n": "Great\u2005Dog",
+  "s": [
+   [
+    [
+     "s",
+     48
+    ],
+    [
+     "s",
+     0
+    ],
+    [
+     "s",
+     181
+    ],
+    [
+     "s",
+     38
+    ],
+    [
+     "s",
+     283
+    ],
+    [
+     "s",
+     23
+    ],
+    [
+     "s",
+     180
+    ]
+   ],
+   [
+    [
+     "s",
+     89
+    ],
+    [
+     "s",
+     38
+    ]
+   ],
+   [
+    [
+     "s",
+     0
+    ],
+    [
+     "s",
+     787
+    ],
+    [
+     "s",
+     584
+    ],
+    [
+     "s",
+     570
+    ],
+    [
+     "s",
+     787
+    ]
+   ]
+  ],
+  "l": [
+   97.5,
+   -26
+  ],
+  "facts": [
+   "Home of Sirius, the brightest star in the entire night sky.",
+   "Sirius has a companion, Sirius B, the first white dwarf ever found \u2014 'the Pup'.",
+   "Contains the rich open cluster M41, just south of Sirius."
+  ]
+ },
+ {
+  "n": "Little\u2005Dog",
+  "s": [
+   [
+    [
+     "s",
+     7
+    ],
+    [
+     "s",
+     155
+    ]
+   ]
+  ],
+  "l": [
+   109.5,
+   5
+  ],
+  "facts": [
+   "Procyon, its brightest star, means 'before the dog' \u2014 it rises just ahead of Sirius.",
+   "One of the smallest constellations on the official 88 list.",
+   "Procyon is also one of the nearest star systems, at just 11.5 light-years."
+  ]
+ },
+ {
+  "n": "Capricorn",
+  "s": [
+   [
+    [
+     "s",
+     728
+    ],
+    [
+     "s",
+     187
+    ],
+    [
+     "s",
+     1235
+    ],
+    [
+     "s",
+     602
+    ],
+    [
+     "s",
+     597
+    ],
+    [
+     "s",
+     399
+    ],
+    [
+     "s",
+     146
+    ],
+    [
+     "s",
+     361
+    ],
+    [
+     "s",
+     704
+    ],
+    [
+     "s",
+     574
+    ],
+    [
+     "s",
+     728
+    ]
+   ]
+  ],
+  "l": [
+   -45,
+   -22
+  ],
+  "facts": [
+   "The sea-goat: part goat, part fish, in myth the god Pan taking refuge in a river.",
+   "Its Deneb Algedi ('tail of the goat') is an eclipsing binary.",
+   "The Winter Solstice point lies in Capricorn \u2014 the Tropic of Capricorn is named for it."
+  ]
+ },
+ {
+  "n": "Keel",
+  "s": [
+   [
+    [
+     "s",
+     204
+    ],
+    [
+     "s",
+     1
+    ],
+    [
+     "s",
+     29
+    ],
+    [
+     "s",
+     231
+    ],
+    [
+     "s",
+     121
+    ],
+    [
+     "s",
+     234
+    ],
+    [
+     "s",
+     255
+    ],
+    [
+     "s",
+     67
+    ],
+    [
+     "s",
+     40
+    ],
+    [
+     "s",
+     276
+    ],
+    [
+     "s",
+     33
+    ],
+    [
+     "s",
+     45
+    ],
+    [
+     "s",
+     67
+    ]
+   ],
+   [
+    [
+     "s",
+     121
+    ],
+    [
+     "s",
+     1036
+    ],
+    [
+     "s",
+     1845
+    ],
+    [
+     "s",
+     1009
+    ],
+    [
+     "s",
+     485
+    ],
+    [
+     "s",
+     404
+    ],
+    [
+     "s",
+     234
+    ]
+   ]
+  ],
+  "l": [
+   144,
+   -66
+  ],
+  "facts": [
+   "Carina, the keel of the great ship Argo, split into four pieces in 1930.",
+   "Holds Canopus, the second-brightest star in the sky.",
+   "The erratic hypergiant Eta Carinae may one day light up as a supernova visible in daylight."
+  ]
+ },
+ {
+  "n": "Cassiopeia",
+  "s": [
+   [
+    [
+     "s",
+     246
+    ],
+    [
+     "s",
+     109
+    ],
+    [
+     "s",
+     64
+    ],
+    [
+     "s",
+     72
+    ],
+    [
+     "s",
+     75
+    ]
+   ]
+  ],
+  "l": [
+   -6,
+   55.5
+  ],
+  "facts": [
+   "Its W shape makes it one of the easiest constellations to find.",
+   "It holds Cassiopeia A, one of the strongest radio sources in the sky.",
+   "Tycho's Star, a supernova seen in 1572, flared up here and helped overturn Aristotle's 'unchanging heavens'."
+  ]
+ },
+ {
+  "n": "Centaur",
+  "s": [
+   [
+    [
+     "s",
+     469
+    ],
+    [
+     "s",
+     100
+    ],
+    [
+     "s",
+     473
+    ],
+    [
+     "s",
+     65
+    ],
+    [
+     "s",
+     76
+    ],
+    [
+     "s",
+     96
+    ],
+    [
+     "s",
+     279
+    ],
+    [
+     "s",
+     262
+    ],
+    [
+     "s",
+     54
+    ],
+    [
+     "s",
+     80
+    ],
+    [
+     "s",
+     200
+    ]
+   ],
+   [
+    [
+     "s",
+     262
+    ],
+    [
+     "s",
+     124
+    ]
+   ],
+   [
+    [
+     "s",
+     21
+    ],
+    [
+     "s",
+     76
+    ],
+    [
+     "s",
+     10
+    ]
+   ],
+   [
+    [
+     "s",
+     473
+    ],
+    [
+     "s",
+     508
+    ],
+    [
+     "s",
+     1761
+    ]
+   ]
+  ],
+  "l": [
+   -160.5,
+   -40
+  ],
+  "facts": [
+   "Alpha Centauri is the closest star system to Earth \u2014 just 4.4 light-years away.",
+   "Holds Omega Centauri, the grandest globular cluster visible from the Northern Hemisphere's edge.",
+   "In myth, this was Chiron, the wise tutor of heroes."
+  ]
+ },
+ {
+  "n": "Cepheus",
+  "s": [
+   [
+    [
+     "s",
+     638
+    ],
+    [
+     "s",
+     264
+    ],
+    [
+     "s",
+     90
+    ],
+    [
+     "s",
+     660
+    ],
+    [
+     "s",
+     625
+    ],
+    [
+     "s",
+     257
+    ],
+    [
+     "s",
+     565
+    ],
+    [
+     "s",
+     290
+    ],
+    [
+     "s",
+     215
+    ],
+    [
+     "s",
+     219
+    ],
+    [
+     "s",
+     90
+    ]
+   ],
+   [
+    [
+     "s",
+     219
+    ],
+    [
+     "s",
+     290
+    ]
+   ]
+  ],
+  "l": [
+   -22.5,
+   71
+  ],
+  "facts": [
+   "The king beside Cassiopeia \u2014 a dim figure shaped like a child's house drawing.",
+   "Delta Cephei gave its name to the Cepheid variables that let astronomers measure the universe.",
+   "Contains the red hypergiant Mu Cephei, one of the largest stars known."
+  ]
+ },
+ {
+  "n": "Whale",
+  "s": [
+   [
+    [
+     "s",
+     278
+    ],
+    [
+     "s",
+     1390
+    ],
+    [
+     "s",
+     717
+    ],
+    [
+     "s",
+     690
+    ],
+    [
+     "s",
+     1141
+    ],
+    [
+     "s",
+     94
+    ],
+    [
+     "s",
+     278
+    ],
+    [
+     "s",
+     568
+    ],
+    [
+     "s",
+     8527
+    ],
+    [
+     "s",
+     380
+    ],
+    [
+     "s",
+     282
+    ],
+    [
+     "s",
+     52
+    ],
+    [
+     "s",
+     310
+    ],
+    [
+     "s",
+     275
+    ],
+    [
+     "s",
+     325
+    ],
+    [
+     "s",
+     380
+    ]
+   ]
+  ],
+  "l": [
+   28.5,
+   -5
+  ],
+  "facts": [
+   "Cetus, the sea monster sent to devour Andromeda.",
+   "Mira, 'the wonderful', was the first variable star recognized \u2014 it brightens and fades over 11 months.",
+   "One of the largest constellations, sprawling across the equator."
+  ]
+ },
+ {
+  "n": "Chamaeleon",
+  "s": [
+   [
+    [
+     "s",
+     548
+    ],
+    [
+     "s",
+     587
+    ],
+    [
+     "s",
+     2727
+    ],
+    [
+     "s",
+     665
+    ],
+    [
+     "s",
+     1406
+    ],
+    [
+     "s",
+     587
+    ]
+   ]
+  ],
+  "l": [
+   -171,
+   -81
+  ],
+  "facts": [
+   "The chameleon, a faint southern figure charted by Keyser and de Houtman.",
+   "Sits near the south celestial pole and never sets for southern polar observers.",
+   "The Chamaeleon dark clouds are a nearby nursery of newborn stars."
+  ]
+ },
+ {
+  "n": "Compass",
+  "s": [
+   [
+    [
+     "s",
+     564
+    ],
+    [
+     "s",
+     209
+    ],
+    [
+     "s",
+     896
+    ]
+   ]
+  ],
+  "l": [
+   -142.5,
+   -67
+  ],
+  "facts": [
+   "Pyxis, the mariner's compass, once part of the Ship Argo.",
+   "Contains T Pyxidis, a recurrent nova that erupts every few decades.",
+   "A faint equatorial constellation, best seen in southern winter."
+  ]
+ },
+ {
+  "n": "Dove",
+  "s": [
+   [
+    [
+     "s",
+     438
+    ],
+    [
+     "s",
+     196
+    ],
+    [
+     "s",
+     106
+    ],
+    [
+     "s",
+     447
+    ]
+   ],
+   [
+    [
+     "s",
+     196
+    ],
+    [
+     "s",
+     497
+    ]
+   ]
+  ],
+  "l": [
+   85.5,
+   -39
+  ],
+  "facts": [
+   "Columba, carved out of Canis Major by Petrus Plancius in 1592.",
+   "Commemorates Noah's dove returning with the olive branch.",
+   "Contains the star Arneb, a supergiant at 2,600 light-years."
+  ]
+ },
+ {
+  "n": "Berenice's\u2005Hair",
+  "s": [
+   [
+    [
+     "s",
+     741
+    ],
+    [
+     "s",
+     654
+    ],
+    [
+     "s",
+     773
+    ]
+   ]
+  ],
+  "l": [
+   -166.5,
+   24
+  ],
+  "facts": [
+   "Coma Berenices honors Queen Berenice II, who cut off her hair as a temple offering.",
+   "Holds the Coma Cluster, thousands of galaxies whose orbits revealed dark matter.",
+   "The North Galactic Pole sits here \u2014 the least dusty window on the universe."
+  ]
+ },
+ {
+  "n": "Southern\u2005Crown",
+  "s": [
+   [
+    [
+     "s",
+     1342
+    ],
+    [
+     "s",
+     659
+    ],
+    [
+     "s",
+     590
+    ],
+    [
+     "s",
+     582
+    ],
+    [
+     "s",
+     992
+    ],
+    [
+     "s",
+     1190
+    ],
+    [
+     "s",
+     3233
+    ],
+    [
+     "s",
+     1042
+    ]
+   ]
+  ],
+  "l": [
+   -78,
+   -40
+  ],
+  "facts": [
+   "Corona Australis, the southern crown, a small arc of stars near the Teapot.",
+   "Contains the R Corona Australis reflection nebula, an active star nursery.",
+   "One of the smallest of the 88 constellations."
+  ]
+ },
+ {
+  "n": "Northern\u2005Crown",
+  "s": [
+   [
+    [
+     "s",
+     609
+    ],
+    [
+     "s",
+     348
+    ],
+    [
+     "s",
+     68
+    ],
+    [
+     "s",
+     416
+    ],
+    [
+     "s",
+     1010
+    ],
+    [
+     "s",
+     610
+    ],
+    [
+     "s",
+     1582
+    ]
+   ]
+  ],
+  "l": [
+   -121.5,
+   32
+  ],
+  "facts": [
+   "Corona Borealis, a perfect semicircle of stars often called 'the jewelry box'.",
+   "The Blaze Star, T Coronae Borealis, erupts as a nova roughly every 80 years.",
+   "Its brightest star, Alphecca, is an eclipsing binary with a dusty disk."
+  ]
+ },
+ {
+  "n": "Crow",
+  "s": [
+   [
+    [
+     "s",
+     533
+    ],
+    [
+     "s",
+     182
+    ],
+    [
+     "s",
+     101
+    ],
+    [
+     "s",
+     165
+    ],
+    [
+     "s",
+     108
+    ],
+    [
+     "s",
+     182
+    ]
+   ]
+  ],
+  "l": [
+   -174,
+   -19.5
+  ],
+  "facts": [
+   "Corvus, the crow punished by Apollo for tardiness \u2014 its stars form a small kite.",
+   "Its four bright stars make it easy to spot despite its size.",
+   "The Antennae Galaxies, two colliding spirals, live here."
+  ]
+ },
+ {
+  "n": "Cup",
+  "s": [
+   [
+    [
+     "s",
+     1133
+    ],
+    [
+     "s",
+     1301
+    ],
+    [
+     "s",
+     312
+    ],
+    [
+     "s",
+     572
+    ],
+    [
+     "s",
+     873
+    ],
+    [
+     "s",
+     1787
+    ],
+    [
+     "s",
+     557
+    ],
+    [
+     "s",
+     1149
+    ],
+    [
+     "s",
+     1984
+    ]
+   ],
+   [
+    [
+     "s",
+     312
+    ],
+    [
+     "s",
+     557
+    ]
+   ]
+  ],
+  "l": [
+   174.75,
+   -15
+  ],
+  "facts": [
+   "The goblet of Apollo, placed in the sky beside the crow and the water snake.",
+   "Once said to hold the wine of the gods.",
+   "A compact constellation of 4th-magnitude stars."
+  ]
+ },
+ {
+  "n": "Cross",
+  "s": [
+   [
+    [
+     "s",
+     19
+    ],
+    [
+     "s",
+     130
+    ]
+   ],
+   [
+    [
+     "s",
+     12
+    ],
+    [
+     "s",
+     25
+    ]
+   ]
+  ],
+  "l": [
+   -166.5,
+   -62
+  ],
+  "facts": [
+   "Crux, the Southern Cross \u2014 the smallest constellation of all 88, yet the southern sky's best-known landmark.",
+   "Appears on the flags of Australia, New Zealand, Brazil, Samoa and others.",
+   "The Coalsack, a nearby dark nebula, nestles beside its brightest stars."
+  ]
+ },
+ {
+  "n": "Swan",
+  "s": [
+   [
+    [
+     "s",
+     214
+    ],
+    [
+     "s",
+     92
+    ],
+    [
+     "s",
+     71
+    ],
+    [
+     "s",
+     149
+    ],
+    [
+     "s",
+     389
+    ],
+    [
+     "s",
+     412
+    ]
+   ],
+   [
+    [
+     "s",
+     20
+    ],
+    [
+     "s",
+     71
+    ],
+    [
+     "s",
+     467
+    ],
+    [
+     "s",
+     186
+    ]
+   ]
+  ],
+  "l": [
+   -52.5,
+   50
+  ],
+  "facts": [
+   "Cygnus the Swan flies down the Milky Way along the Summer Triangle.",
+   "Deneb is one of the most luminous stars known \u2014 160,000 times brighter than the Sun.",
+   "The Cygnus X-1 system was the first strong black-hole candidate ever identified."
+  ]
+ },
+ {
+  "n": "Dolphin",
+  "s": [
+   [
+    [
+     "s",
+     541
+    ],
+    [
+     "s",
+     342
+    ],
+    [
+     "s",
+     398
+    ],
+    [
+     "s",
+     1955
+    ],
+    [
+     "s",
+     845
+    ],
+    [
+     "s",
+     342
+    ]
+   ]
+  ],
+  "l": [
+   -51,
+   6
+  ],
+  "facts": [
+   "Delphinus, a compact chevron of stars named by the Greeks after Poseidon's messenger.",
+   "Holds a nova that appeared in 1967, Nova Delphini 1967.",
+   "One of its stars, Rotanev, is named for an Italian astronomer's real name spelled backwards."
+  ]
+ },
+ {
+  "n": "Goldfish",
+  "s": [
+   [
+    [
+     "s",
+     683
+    ],
+    [
+     "s",
+     233
+    ],
+    [
+     "s",
+     385
+    ],
+    [
+     "s",
+     755
+    ],
+    [
+     "s",
+     1073
+    ],
+    [
+     "s",
+     385
+    ],
+    [
+     "s",
+     1144
+    ],
+    [
+     "s",
+     233
+    ]
+   ]
+  ],
+  "l": [
+   76.5,
+   -64
+  ],
+  "facts": [
+   "Dorado, the dolphinfish \u2014 Spanish explorers named it for the golden mahi-mahi.",
+   "Holds the Tarantula Nebula, the largest known stellar nursery in the Local Group.",
+   "The Large Magellanic Cloud dominates its patch of sky."
+  ]
+ },
+ {
+  "n": "Dragon",
+  "s": [
+   [
+    [
+     "s",
+     377
+    ],
+    [
+     "s",
+     73
+    ],
+    [
+     "s",
+     131
+    ],
+    [
+     "s",
+     1382
+    ],
+    [
+     "s",
+     377
+    ],
+    [
+     "s",
+     190
+    ],
+    [
+     "s",
+     645
+    ],
+    [
+     "s",
+     206
+    ],
+    [
+     "s",
+     120
+    ],
+    [
+     "s",
+     528
+    ],
+    [
+     "s",
+     232
+    ],
+    [
+     "s",
+     350
+    ],
+    [
+     "s",
+     440
+    ],
+    [
+     "s",
+     420
+    ]
+   ],
+   [
+    [
+     "s",
+     645
+    ],
+    [
+     "s",
+     308
+    ]
+   ],
+   [
+    [
+     "s",
+     190
+    ],
+    [
+     "s",
+     435
+    ]
+   ]
+  ],
+  "l": [
+   -91.5,
+   64
+  ],
+  "facts": [
+   "Draco coils between the Big and Little Dippers, guarding the pole in myth.",
+   "Thuban was the pole star when the Egyptians built the pyramids \u2014 it will be again someday.",
+   "The Cat's Eye Nebula here is one of the most complex planetary nebulae ever imaged."
+  ]
+ },
+ {
+  "n": "Colt",
+  "s": [
+   [
+    [
+     "s",
+     479
+    ],
+    [
+     "s",
+     889
+    ],
+    [
+     "s",
+     1138
+    ]
+   ]
+  ],
+  "l": [
+   -39.75,
+   11.5
+  ],
+  "facts": [
+   "Equuleus, the Little Horse, is the second-smallest constellation in the northern sky.",
+   "Has no stars brighter than 4th magnitude.",
+   "Charted by Ptolemy, yet almost nothing bright or famous lives here."
+  ]
+ },
+ {
+  "n": "Eridanus",
+  "s": [
+   [
+    [
+     "s",
+     127
+    ],
+    [
+     "s",
+     524
+    ],
+    [
+     "s",
+     483
+    ],
+    [
+     "s",
+     543
+    ],
+    [
+     "s",
+     167
+    ],
+    [
+     "s",
+     839
+    ],
+    [
+     "s",
+     293
+    ],
+    [
+     "s",
+     371
+    ],
+    [
+     "s",
+     463
+    ],
+    [
+     "s",
+     664
+    ],
+    [
+     "s",
+     877
+    ],
+    [
+     "s",
+     569
+    ],
+    [
+     "s",
+     362
+    ],
+    [
+     "s",
+     682
+    ],
+    [
+     "s",
+     641
+    ],
+    [
+     "s",
+     414
+    ],
+    [
+     "s",
+     504
+    ],
+    [
+     "s",
+     305
+    ],
+    [
+     "s",
+     620
+    ],
+    [
+     "s",
+     987
+    ],
+    [
+     "s",
+     681
+    ],
+    [
+     "s",
+     153
+    ],
+    [
+     "s",
+     583
+    ],
+    [
+     "s",
+     663
+    ],
+    [
+     "s",
+     311
+    ],
+    [
+     "s",
+     357
+    ],
+    [
+     "s",
+     8
+    ]
+   ]
+  ],
+  "l": [
+   52.5,
+   -18
+  ],
+  "facts": [
+   "The celestial river, winding from Orion nearly to the south celestial pole.",
+   "Achernar, its southern star, is the flattest known star \u2014 spun so fast it bulges at the equator.",
+   "One of its regions hosts the 'Eridanus Supervoid', a vast cosmic cold spot."
+  ]
+ },
+ {
+  "n": "Furnace",
+  "s": [
+   [
+    [
+     "s",
+     409
+    ],
+    [
+     "s",
+     858
+    ],
+    [
+     "s",
+     1110
+    ]
+   ]
+  ],
+  "l": [
+   40.5,
+   -28
+  ],
+  "facts": [
+   "Fornax, the laboratory furnace of Lacaille's instruments.",
+   "The Fornax Cluster is a rich gathering of galaxies, including the Great Barred Spiral.",
+   "Its deep-field images revealed hundreds of dwarf galaxies."
+  ]
+ },
+ {
+  "n": "Twins",
+  "s": [
+   [
+    [
+     "s",
+     235
+    ],
+    [
+     "s",
+     150
+    ],
+    [
+     "s",
+     188
+    ],
+    [
+     "s",
+     820
+    ],
+    [
+     "s",
+     24
+    ],
+    [
+     "s",
+     17
+    ],
+    [
+     "s",
+     556
+    ],
+    [
+     "s",
+     289
+    ],
+    [
+     "s",
+     525
+    ],
+    [
+     "s",
+     44
+    ],
+    [
+     "s",
+     248
+    ]
+   ],
+   [
+    [
+     "s",
+     289
+    ],
+    [
+     "s",
+     318
+    ]
+   ]
+  ],
+  "l": [
+   107.25,
+   23.5
+  ],
+  "facts": [
+   "Castor and Pollux, the twin brothers of Greek myth, immortalized together.",
+   "Pollux hosts a confirmed planet; Castor is actually six stars bound in three pairs.",
+   "The Geminid meteor shower, one of the year's best, radiates from here."
+  ]
+ },
+ {
+  "n": "Crane",
+  "s": [
+   [
+    [
+     "s",
+     591
+    ],
+    [
+     "s",
+     287
+    ],
+    [
+     "s",
+     59
+    ],
+    [
+     "s",
+     598
+    ],
+    [
+     "s",
+     31
+    ],
+    [
+     "s",
+     59
+    ]
+   ],
+   [
+    [
+     "s",
+     511
+    ],
+    [
+     "s",
+     1269
+    ],
+    [
+     "s",
+     890
+    ],
+    [
+     "s",
+     178
+    ]
+   ]
+  ],
+  "l": [
+   -18,
+   -41.5
+  ],
+  "facts": [
+   "Grus, the crane, formed from stars once part of the enormous Southern Fish.",
+   "Its brightest star, Alnair, means 'the bright one from the fish's tail'.",
+   "Home to a remarkable trio of interacting spiral galaxies."
+  ]
+ },
+ {
+  "n": "Hercules",
+  "s": [
+   [
+    [
+     "s",
+     381
+    ],
+    [
+     "s",
+     128
+    ],
+    [
+     "s",
+     134
+    ],
+    [
+     "s",
+     281
+    ],
+    [
+     "s",
+     632
+    ],
+    [
+     "s",
+     476
+    ],
+    [
+     "s",
+     657
+    ],
+    [
+     "s",
+     1020
+    ]
+   ],
+   [
+    [
+     "s",
+     134
+    ],
+    [
+     "s",
+     477
+    ]
+   ],
+   [
+    [
+     "s",
+     281
+    ],
+    [
+     "s",
+     203
+    ]
+   ],
+   [
+    [
+     "s",
+     450
+    ],
+    [
+     "s",
+     614
+    ],
+    [
+     "s",
+     203
+    ],
+    [
+     "s",
+     477
+    ],
+    [
+     "s",
+     199
+    ],
+    [
+     "s",
+     268
+    ],
+    [
+     "s",
+     363
+    ],
+    [
+     "s",
+     433
+    ]
+   ],
+   [
+    [
+     "s",
+     129
+    ],
+    [
+     "s",
+     128
+    ]
+   ]
+  ],
+  "l": [
+   -106.5,
+   35
+  ],
+  "facts": [
+   "The great hero of mythology, kneeling with his club raised.",
+   "Contains the Keystone asterism and the glorious M13 globular cluster.",
+   "M13 is the target of the 1974 Arecibo message \u2014 humanity's first deliberate broadcast to the stars."
+  ]
+ },
+ {
+  "n": "Clock",
+  "s": [
+   [
+    [
+     "s",
+     436
+    ],
+    [
+     "s",
+     2545
+    ],
+    [
+     "s",
+     2291
+    ],
+    [
+     "s",
+     2074
+    ],
+    [
+     "s",
+     1858
+    ],
+    [
+     "s",
+     1572
+    ]
+   ]
+  ],
+  "l": [
+   51,
+   -52
+  ],
+  "facts": [
+   "Horologium, the pendulum clock, added by Lacaille to honor timekeeping.",
+   "Holds the Horologium Supercluster, tens of thousands of galaxies deep in the field.",
+   "A faint constellation far from the Milky Way's glare."
+  ]
+ },
+ {
+  "n": "Sea\u2005Serpent",
+  "s": [
+   [
+    [
+     "s",
+     252
+    ],
+    [
+     "s",
+     772
+    ],
+    [
+     "s",
+     722
+    ],
+    [
+     "s",
+     861
+    ],
+    [
+     "s",
+     607
+    ],
+    [
+     "s",
+     252
+    ],
+    [
+     "s",
+     192
+    ],
+    [
+     "s",
+     465
+    ],
+    [
+     "s",
+     468
+    ],
+    [
+     "s",
+     49
+    ],
+    [
+     "s",
+     586
+    ],
+    [
+     "s",
+     333
+    ],
+    [
+     "s",
+     423
+    ],
+    [
+     "s",
+     193
+    ],
+    [
+     "s",
+     302
+    ],
+    [
+     "s",
+     710
+    ],
+    [
+     "s",
+     171
+    ],
+    [
+     "s",
+     223
+    ],
+    [
+     "s",
+     834
+    ]
+   ]
+  ],
+  "l": [
+   150,
+   -22
+  ],
+  "facts": [
+   "Hydra is the largest constellation of all 88, stretching a quarter of the way around the sky.",
+   "Its star Alphard means 'the solitary one' \u2014 the only bright star in that stretch of sky.",
+   "Home to the Ghost of Jupiter, a striking planetary nebula."
+  ]
+ },
+ {
+  "n": "Hydrus",
+  "s": [
+   [
+    [
+     "s",
+     135
+    ],
+    [
+     "s",
+     226
+    ],
+    [
+     "s",
+     592
+    ],
+    [
+     "s",
+     567
+    ],
+    [
+     "s",
+     1109
+    ],
+    [
+     "s",
+     148
+    ]
+   ]
+  ],
+  "l": [
+   34.5,
+   -72
+  ],
+  "facts": [
+   "The Little Water Snake, distinct from the much larger Hydra.",
+   "Sits near the south celestial pole, wedged between the two Magellanic Clouds.",
+   "Charted by Dutch navigators around 1600."
+  ]
+ },
+ {
+  "n": "Indian",
+  "s": [
+   [
+    [
+     "s",
+     195
+    ],
+    [
+     "s",
+     932
+    ],
+    [
+     "s",
+     351
+    ],
+    [
+     "s",
+     818
+    ],
+    [
+     "s",
+     813
+    ],
+    [
+     "s",
+     195
+    ]
+   ]
+  ],
+  "l": [
+   -42,
+   -55.5
+  ],
+  "facts": [
+   "Indus, the American Indian, honoring peoples encountered by European explorers.",
+   "Its brightest star is a close binary some 90 light-years away.",
+   "A dim southern constellation below the Peacock."
+  ]
+ },
+ {
+  "n": "Lizard",
+  "s": [
+   [
+    [
+     "s",
+     837
+    ],
+    [
+     "s",
+     390
+    ],
+    [
+     "s",
+     766
+    ],
+    [
+     "s",
+     976
+    ],
+    [
+     "s",
+     945
+    ],
+    [
+     "s",
+     924
+    ],
+    [
+     "s",
+     766
+    ],
+    [
+     "s",
+     977
+    ],
+    [
+     "s",
+     837
+    ]
+   ],
+   [
+    [
+     "s",
+     945
+    ],
+    [
+     "s",
+     923
+    ],
+    [
+     "s",
+     612
+    ]
+   ]
+  ],
+  "l": [
+   -18,
+   47
+  ],
+  "facts": [
+   "Lacerta, the lizard, squeezed into the sky by Hevelius between the Swan and the Ladder.",
+   "Holds the star BL Lacertae, prototype of a whole class of violently variable galaxies.",
+   "Contains the small open cluster NGC 7243."
+  ]
+ },
+ {
+  "n": "Lion",
+  "s": [
+   [
+    [
+     "s",
+     22
+    ],
+    [
+     "s",
+     280
+    ],
+    [
+     "s",
+     51
+    ],
+    [
+     "s",
+     97
+    ],
+    [
+     "s",
+     63
+    ],
+    [
+     "s",
+     244
+    ],
+    [
+     "s",
+     22
+    ]
+   ],
+   [
+    [
+     "s",
+     51
+    ],
+    [
+     "s",
+     271
+    ],
+    [
+     "s",
+     460
+    ],
+    [
+     "s",
+     169
+    ]
+   ]
+  ],
+  "l": [
+   159,
+   15
+  ],
+  "facts": [
+   "Leo, the lion of Hercules's first labor, recognized by its backward-question-mark Sickle.",
+   "Regulus, the 'little king', sits almost exactly on the ecliptic.",
+   "The Leo Triplet of galaxies \u2014 M65, M66 and NGC 3628 \u2014 lies just under the Lion's hindquarters."
+  ]
+ },
+ {
+  "n": "Little\u2005Lion",
+  "s": [
+   [
+    [
+     "s",
+     905
+    ],
+    [
+     "s",
+     1161
+    ],
+    [
+     "s",
+     408
+    ],
+    [
+     "s",
+     631
+    ],
+    [
+     "s",
+     905
+    ],
+    [
+     "s",
+     958
+    ]
+   ]
+  ],
+  "l": [
+   157.5,
+   30
+  ],
+  "facts": [
+   "Leo Minor, the Lion Cub, carved from bare sky by Hevelius in 1687.",
+   "Its brightest star is an unusual, rapidly rotating giant.",
+   "Has no Messier objects and almost no bright deep-sky sights."
+  ]
+ },
+ {
+  "n": "Hare",
+  "s": [
+   [
+    [
+     "s",
+     1100
+    ],
+    [
+     "s",
+     366
+    ],
+    [
+     "s",
+     306
+    ],
+    [
+     "s",
+     99
+    ],
+    [
+     "s",
+     230
+    ],
+    [
+     "s",
+     211
+    ],
+    [
+     "s",
+     133
+    ],
+    [
+     "s",
+     322
+    ],
+    [
+     "s",
+     386
+    ]
+   ],
+   [
+    [
+     "s",
+     785
+    ],
+    [
+     "s",
+     230
+    ],
+    [
+     "s",
+     708
+    ]
+   ]
+  ],
+  "l": [
+   88.5,
+   -25
+  ],
+  "facts": [
+   "Lepus the Hare cowers beneath Orion's feet, chased by the Great Dog.",
+   "Contains Hind's Crimson Star, a deep-red carbon star famous for its color.",
+   "Globular cluster M79 lives here, unusually far from the galactic center."
+  ]
+ },
+ {
+  "n": "Balance",
+  "s": [
+   [
+    [
+     "s",
+     224
+    ],
+    [
+     "s",
+     125
+    ],
+    [
+     "s",
+     103
+    ],
+    [
+     "s",
+     475
+    ],
+    [
+     "s",
+     329
+    ],
+    [
+     "s",
+     349
+    ]
+   ],
+   [
+    [
+     "s",
+     125
+    ],
+    [
+     "s",
+     475
+    ]
+   ]
+  ],
+  "l": [
+   -129,
+   -26
+  ],
+  "facts": [
+   "Libra, the scales \u2014 once the claws of the Scorpion, later the only inanimate zodiac figure.",
+   "Its star names Zubeneschamali and Zubenelgenubi mean 'northern claw' and 'southern claw'.",
+   "The Sun's autumnal equinox point sits within its borders."
+  ]
+ },
+ {
+  "n": "Wolf",
+  "s": [
+   [
+    [
+     "s",
+     509
+    ],
+    [
+     "s",
+     1091
+    ],
+    [
+     "s",
+     317
+    ],
+    [
+     "s",
+     216
+    ],
+    [
+     "s",
+     111
+    ],
+    [
+     "s",
+     79
+    ],
+    [
+     "s",
+     263
+    ],
+    [
+     "s",
+     695
+    ],
+    [
+     "s",
+     251
+    ],
+    [
+     "s",
+     132
+    ],
+    [
+     "s",
+     267
+    ],
+    [
+     "s",
+     643
+    ]
+   ],
+   [
+    [
+     "s",
+     216
+    ],
+    [
+     "s",
+     132
+    ]
+   ]
+  ],
+  "l": [
+   -131.25,
+   -35
+  ],
+  "facts": [
+   "Lupus, the wolf, once visualized as an animal being carried to the altar of Centaurus.",
+   "Sits in a rich Milky Way region full of star clusters.",
+   "Contains the globular cluster NGC 5986."
+  ]
+ },
+ {
+  "n": "Lynx",
+  "s": [
+   [
+    [
+     "s",
+     851
+    ],
+    [
+     "s",
+     770
+    ],
+    [
+     "s",
+     1026
+    ],
+    [
+     "s",
+     675
+    ],
+    [
+     "s",
+     498
+    ],
+    [
+     "s",
+     419
+    ],
+    [
+     "s",
+     201
+    ]
+   ]
+  ],
+  "l": [
+   121.5,
+   49
+  ],
+  "facts": [
+   "A faint constellation Hevelius joked was named because you'd need lynx eyes to find anything in it.",
+   "Contains one of the oldest known star clusters, the 12-billion-year-old NGC 2419, the 'Intergalactic Wanderer'.",
+   "Its brightest star is a dazzling orange-red double."
+  ]
+ },
+ {
+  "n": "Lyre",
+  "s": [
+   [
+    [
+     "s",
+     763
+    ],
+    [
+     "s",
+     1012
+    ],
+    [
+     "s",
+     4
+    ],
+    [
+     "s",
+     763
+    ],
+    [
+     "s",
+     648
+    ],
+    [
+     "s",
+     225
+    ],
+    [
+     "s",
+     296
+    ],
+    [
+     "s",
+     763
+    ]
+   ]
+  ],
+  "l": [
+   -81,
+   30
+  ],
+  "facts": [
+   "Lyra holds Vega, once the pole star and due to be so again.",
+   "The Ring Nebula, M57, is one of the easiest planetary nebulae to see in small telescopes.",
+   "The mythic lyre of Orpheus, whose music charmed even stones."
+  ]
+ },
+ {
+  "n": "Mensa",
+  "s": [
+   [
+    [
+     "s",
+     1778
+    ],
+    [
+     "s",
+     2004
+    ],
+    [
+     "s",
+     2754
+    ],
+    [
+     "s",
+     2296
+    ]
+   ]
+  ],
+  "l": [
+   82.5,
+   -80
+  ],
+  "facts": [
+   "The Table Mountain, named for the peak above Cape Town where Lacaille observed.",
+   "Contains part of the Large Magellanic Cloud.",
+   "The faintest constellation of the southern sky \u2014 no star brighter than 5th magnitude."
+  ]
+ },
+ {
+  "n": "Microscope",
+  "s": [
+   [
+    [
+     "s",
+     1432
+    ],
+    [
+     "s",
+     1852
+    ],
+    [
+     "s",
+     1291
+    ],
+    [
+     "s",
+     1153
+    ],
+    [
+     "s",
+     1107
+    ],
+    [
+     "s",
+     1432
+    ]
+   ]
+  ],
+  "l": [
+   -43.5,
+   -37
+  ],
+  "facts": [
+   "Microscopium, Lacaille's tribute to the microscope.",
+   "An obscure southern constellation with no bright stars.",
+   "Holds a galaxy cluster near the direction of the Great Attractor."
+  ]
+ },
+ {
+  "n": "Unicorn",
+  "s": [
+   [
+    [
+     "s",
+     489
+    ],
+    [
+     "s",
+     788
+    ],
+    [
+     "s",
+     613
+    ],
+    [
+     "s",
+     387
+    ],
+    [
+     "s",
+     516
+    ]
+   ],
+   [
+    [
+     "s",
+     613
+    ],
+    [
+     "s",
+     894
+    ],
+    [
+     "s",
+     805
+    ],
+    [
+     "s",
+     881
+    ],
+    [
+     "s",
+     1083
+    ]
+   ]
+  ],
+  "l": [
+   114.75,
+   -6
+  ],
+  "facts": [
+   "Monoceros the Unicorn, a young constellation first charted in 1613.",
+   "Contains the famous Rosette Nebula, a wreath of glowing gas.",
+   "Home to V838 Monocerotis, whose 2002 outburst lit up shells of dust in one of astronomy's great light echoes."
+  ]
+ },
+ {
+  "n": "Fly",
+  "s": [
+   [
+    [
+     "s",
+     341
+    ],
+    [
+     "s",
+     558
+    ],
+    [
+     "s",
+     114
+    ],
+    [
+     "s",
+     184
+    ],
+    [
+     "s",
+     334
+    ],
+    [
+     "s",
+     432
+    ],
+    [
+     "s",
+     114
+    ]
+   ]
+  ],
+  "l": [
+   -165,
+   -73
+  ],
+  "facts": [
+   "Musca the Fly, the only insect constellation, added by Dutch navigators.",
+   "Sits between the Southern Cross and the Chamaeleon.",
+   "Contains the eclipsing binary system Beta Muscae."
+  ]
+ },
+ {
+  "n": "Level",
+  "s": [
+   [
+    [
+     "s",
+     1174
+    ],
+    [
+     "s",
+     875
+    ],
+    [
+     "s",
+     529
+    ],
+    [
+     "s",
+     1079
+    ],
+    [
+     "s",
+     1174
+    ]
+   ]
+  ],
+  "l": [
+   -117,
+   -52
+  ],
+  "facts": [
+   "Norma, the carpenter's level, another Lacaille instrument.",
+   "Lies in the direction of the Milky Way's dense central bulge.",
+   "Holds open clusters and a pair of peculiar interacting galaxies."
+  ]
+ },
+ {
+  "n": "Octant",
+  "s": [
+   [
+    [
+     "s",
+     730
+    ],
+    [
+     "s",
+     603
+    ],
+    [
+     "s",
+     378
+    ],
+    [
+     "s",
+     730
+    ]
+   ]
+  ],
+  "l": [
+   -60,
+   -80
+  ],
+  "facts": [
+   "Octans contains the south celestial pole \u2014 the southern counterpart of Polaris sits here.",
+   "Its pole star, Sigma Octantis, is barely visible to the naked eye.",
+   "Named after the octant, the forerunner of the sextant."
+  ]
+ },
+ {
+  "n": "Ophiuchus",
+  "s": [
+   [
+    [
+     "s",
+     241
+    ],
+    [
+     "s",
+     384
+    ],
+    [
+     "s",
+     126
+    ],
+    [
+     "s",
+     60
+    ],
+    [
+     "s",
+     212
+    ],
+    [
+     "s",
+     421
+    ],
+    [
+     "s",
+     119
+    ],
+    [
+     "s",
+     217
+    ],
+    [
+     "s",
+     95
+    ],
+    [
+     "s",
+     87
+    ]
+   ],
+   [
+    [
+     "s",
+     212
+    ],
+    [
+     "s",
+     95
+    ],
+    [
+     "s",
+     712
+    ],
+    [
+     "s",
+     644
+    ],
+    [
+     "s",
+     897
+    ],
+    [
+     "s",
+     989
+    ]
+   ],
+   [
+    [
+     "s",
+     126
+    ],
+    [
+     "s",
+     87
+    ],
+    [
+     "s",
+     228
+    ],
+    [
+     "s",
+     702
+    ]
+   ]
+  ],
+  "l": [
+   -102,
+   3
+  ],
+  "facts": [
+   "The Serpent Bearer, sometimes called the 13th zodiac figure \u2014 the Sun passes through it in December.",
+   "Contains Barnard's Star, the fastest-moving star in the sky.",
+   "Holds the dark nebula Barnard 68 and the recurrent nova RS Ophiuchi."
+  ]
+ },
+ {
+  "n": "Orion",
+  "s": [
+   [
+    [
+     "s",
+     828
+    ],
+    [
+     "s",
+     804
+    ],
+    [
+     "s",
+     1059
+    ],
+    [
+     "s",
+     860
+    ],
+    [
+     "s",
+     594
+    ],
+    [
+     "s",
+     9
+    ],
+    [
+     "s",
+     27
+    ],
+    [
+     "s",
+     1058
+    ]
+   ],
+   [
+    [
+     "s",
+     879
+    ],
+    [
+     "s",
+     365
+    ],
+    [
+     "s",
+     352
+    ],
+    [
+     "s",
+     210
+    ],
+    [
+     "s",
+     768
+    ],
+    [
+     "s",
+     1058
+    ],
+    [
+     "s",
+     555
+    ],
+    [
+     "s",
+     1072
+    ],
+    [
+     "s",
+     1295
+    ]
+   ],
+   [
+    [
+     "s",
+     6
+    ],
+    [
+     "s",
+     247
+    ],
+    [
+     "s",
+     74
+    ],
+    [
+     "s",
+     27
+    ],
+    [
+     "s",
+     254
+    ],
+    [
+     "s",
+     9
+    ],
+    [
+     "s",
+     32
+    ],
+    [
+     "s",
+     57
+    ]
+   ],
+   [
+    [
+     "s",
+     32
+    ],
+    [
+     "s",
+     30
+    ],
+    [
+     "s",
+     74
+    ]
+   ]
+  ],
+  "l": [
+   84,
+   13
+  ],
+  "facts": [
+   "The Hunter, the most recognizable constellation in the sky \u2014 its three-belt asterism is famous worldwide.",
+   "The Orion Nebula is the nearest great stellar nursery, 1,300 light-years away.",
+   "Betelgeuse, a red supergiant, may one day explode as a supernova bright enough to see in daylight."
+  ]
+ },
+ {
+  "n": "Peacock",
+  "s": [
+   [
+    [
+     "s",
+     46
+    ],
+    [
+     "s",
+     269
+    ],
+    [
+     "s",
+     309
+    ],
+    [
+     "s",
+     647
+    ],
+    [
+     "s",
+     776
+    ],
+    [
+     "s",
+     749
+    ],
+    [
+     "s",
+     335
+    ],
+    [
+     "s",
+     530
+    ],
+    [
+     "s",
+     510
+    ],
+    [
+     "s",
+     269
+    ],
+    [
+     "s",
+     639
+    ]
+   ]
+  ],
+  "l": [
+   -63,
+   -62
+  ],
+  "facts": [
+   "Pavo, the peacock \u2014 a constellation named for the showiest bird of them all.",
+   "Its brightest star, Alpha Pavonis, means simply 'the peacock'.",
+   "Contains NGC 6752, one of the best globular clusters for southern observers."
+  ]
+ },
+ {
+  "n": "Pegasus",
+  "s": [
+   [
+    [
+     "s",
+     705
+    ],
+    [
+     "s",
+     163
+    ],
+    [
+     "s",
+     88
+    ],
+    [
+     "s",
+     55
+    ],
+    [
+     "s",
+     138
+    ],
+    [
+     "s",
+     93
+    ],
+    [
+     "s",
+     633
+    ],
+    [
+     "s",
+     265
+    ],
+    [
+     "s",
+     298
+    ],
+    [
+     "s",
+     83
+    ]
+   ],
+   [
+    [
+     "s",
+     93
+    ],
+    [
+     "s",
+     88
+    ],
+    [
+     "s",
+     292
+    ],
+    [
+     "s",
+     512
+    ],
+    [
+     "s",
+     400
+    ],
+    [
+     "s",
+     611
+    ]
+   ]
+  ],
+  "l": [
+   -25.5,
+   16
+  ],
+  "facts": [
+   "The winged horse of myth, whose Great Square anchors the autumn sky.",
+   "The star 51 Pegasi hosted the first exoplanet found around a Sun-like star.",
+   "Its hooves are said to create the spring of Hippocrene, source of poetic inspiration."
+  ]
+ },
+ {
+  "n": "Perseus",
+  "s": [
+   [
+    [
+     "s",
+     427
+    ],
+    [
+     "s",
+     141
+    ],
+    [
+     "s",
+     513
+    ],
+    [
+     "s",
+     158
+    ],
+    [
+     "s",
+     392
+    ],
+    [
+     "s",
+     179
+    ],
+    [
+     "s",
+     734
+    ],
+    [
+     "s",
+     35
+    ],
+    [
+     "s",
+     161
+    ],
+    [
+     "s",
+     391
+    ],
+    [
+     "s",
+     482
+    ],
+    [
+     "s",
+     547
+    ],
+    [
+     "s",
+     407
+    ],
+    [
+     "s",
+     61
+    ],
+    [
+     "s",
+     1025
+    ],
+    [
+     "s",
+     238
+    ],
+    [
+     "s",
+     1111
+    ],
+    [
+     "s",
+     4430
+    ],
+    [
+     "s",
+     61
+    ]
+   ],
+   [
+    [
+     "s",
+     671
+    ],
+    [
+     "s",
+     593
+    ],
+    [
+     "s",
+     496
+    ],
+    [
+     "s",
+     179
+    ]
+   ],
+   [
+    [
+     "s",
+     547
+    ],
+    [
+     "s",
+     579
+    ],
+    [
+     "s",
+     523
+    ]
+   ]
+  ],
+  "l": [
+   66,
+   45
+  ],
+  "facts": [
+   "The hero who slew Medusa and rescued Andromeda.",
+   "Algol, the 'Demon Star', is a famous eclipsing binary that dims every 2.9 days.",
+   "The Perseid meteor shower, one of the year's finest, radiates from here every August."
+  ]
+ },
+ {
+  "n": "Phoenix",
+  "s": [
+   [
+    [
+     "s",
+     85
+    ],
+    [
+     "s",
+     237
+    ],
+    [
+     "s",
+     260
+    ],
+    [
+     "s",
+     481
+    ],
+    [
+     "s",
+     488
+    ],
+    [
+     "s",
+     237
+    ],
+    [
+     "s",
+     458
+    ],
+    [
+     "s",
+     85
+    ]
+   ]
+  ],
+  "l": [
+   16.5,
+   -43
+  ],
+  "facts": [
+   "The phoenix, the mythical bird reborn from its own ashes.",
+   "Contains the Phoenix Cluster, home to one of the most massive known galaxies.",
+   "Lies near the south celestial pole, best viewed from the Southern Hemisphere."
+  ]
+ },
+ {
+  "n": "Painter",
+  "s": [
+   [
+    [
+     "s",
+     220
+    ],
+    [
+     "s",
+     914
+    ],
+    [
+     "s",
+     437
+    ]
+   ]
+  ],
+  "l": [
+   82.5,
+   -50
+  ],
+  "facts": [
+   "Pictor, the painter's easel, added by Lacaille.",
+   "Holds Beta Pictoris, famous for its debris disk \u2014 the first circumstellar disk imaged, in 1984.",
+   "Its stars are otherwise faint, making it a quiet patch of sky."
+  ]
+ },
+ {
+  "n": "Fishes",
+  "s": [
+   [
+    [
+     "s",
+     1096
+    ],
+    [
+     "s",
+     926
+    ],
+    [
+     "s",
+     1178
+    ],
+    [
+     "s",
+     1096
+    ],
+    [
+     "s",
+     1081
+    ],
+    [
+     "s",
+     336
+    ],
+    [
+     "s",
+     680
+    ],
+    [
+     "s",
+     418
+    ],
+    [
+     "s",
+     1024
+    ],
+    [
+     "s",
+     857
+    ],
+    [
+     "s",
+     1343
+    ],
+    [
+     "s",
+     2073
+    ],
+    [
+     "s",
+     689
+    ],
+    [
+     "s",
+     848
+    ],
+    [
+     "s",
+     542
+    ],
+    [
+     "s",
+     604
+    ],
+    [
+     "s",
+     698
+    ],
+    [
+     "s",
+     1724
+    ],
+    [
+     "s",
+     364
+    ],
+    [
+     "s",
+     1537
+    ],
+    [
+     "s",
+     910
+    ],
+    [
+     "s",
+     1538
+    ],
+    [
+     "s",
+     604
+    ]
+   ],
+   [
+    [
+     "s",
+     364
+    ],
+    [
+     "s",
+     898
+    ]
+   ]
+  ],
+  "l": [
+   19.5,
+   15
+  ],
+  "facts": [
+   "Pisces, the two fish of the zodiac, tied by a cord.",
+   "The March equinox point lies here now \u2014 the 'First Point of Aries' has drifted into the Fishes.",
+   "Contains M74, one of the most perfect spiral galaxies known."
+  ]
+ },
+ {
+  "n": "Southern\u2005Fish",
+  "s": [
+   [
+    [
+     "s",
+     626
+    ],
+    [
+     "s",
+     18
+    ],
+    [
+     "s",
+     634
+    ],
+    [
+     "s",
+     876
+    ],
+    [
+     "s",
+     714
+    ],
+    [
+     "s",
+     922
+    ],
+    [
+     "s",
+     778
+    ],
+    [
+     "s",
+     1670
+    ],
+    [
+     "s",
+     922
+    ],
+    [
+     "s",
+     626
+    ]
+   ]
+  ],
+  "l": [
+   -27,
+   -29
+  ],
+  "facts": [
+   "Piscis Austrinus, the parent fish from which the two Pisces were said to spring.",
+   "Fomalhaut, its bright anchor, hosts the first directly imaged exoplanet orbiting a visible star.",
+   "Fomalhaut is sometimes called the Lonely Star of autumn \u2014 the only bright star in that region."
+  ]
+ },
+ {
+  "n": "Poop\u2005Deck",
+  "s": [
+   [
+    [
+     "s",
+     204
+    ],
+    [
+     "s",
+     116
+    ],
+    [
+     "s",
+     1076
+    ],
+    [
+     "s",
+     410
+    ],
+    [
+     "s",
+     245
+    ],
+    [
+     "s",
+     630
+    ],
+    [
+     "s",
+     139
+    ],
+    [
+     "s",
+     66
+    ],
+    [
+     "s",
+     33
+    ]
+   ],
+   [
+    [
+     "s",
+     245
+    ],
+    [
+     "s",
+     815
+    ],
+    [
+     "s",
+     490
+    ],
+    [
+     "s",
+     1076
+    ]
+   ]
+  ],
+  "l": [
+   111,
+   -46
+  ],
+  "facts": [
+   "Puppis, the stern of the great ship Argo Navis.",
+   "Holds Puppis A, a supernova remnant 3,700 light-years away.",
+   "A rich Milky Way constellation with many open clusters."
+  ]
+ },
+ {
+  "n": "Compass",
+  "s": [
+   [
+    [
+     "s",
+     66
+    ],
+    [
+     "s",
+     507
+    ],
+    [
+     "s",
+     353
+    ],
+    [
+     "s",
+     532
+    ]
+   ]
+  ],
+  "l": [
+   132,
+   -24
+  ],
+  "facts": [
+   "Pyxis, the mariner's compass, once part of the Ship Argo.",
+   "Contains T Pyxidis, a recurrent nova that erupts every few decades.",
+   "A faint equatorial constellation, best seen in southern winter."
+  ]
+ },
+ {
+  "n": "Net",
+  "s": [
+   [
+    [
+     "s",
+     243
+    ],
+    [
+     "s",
+     849
+    ],
+    [
+     "s",
+     979
+    ],
+    [
+     "s",
+     426
+    ],
+    [
+     "s",
+     243
+    ]
+   ]
+  ],
+  "l": [
+   55.5,
+   -61
+  ],
+  "facts": [
+   "Reticulum, the reticle or grid at the eyepiece of a telescope.",
+   "Holds the interacting galaxy NGC 1559, home of a famous 2005 supernova.",
+   "One of Lacaille's smallest southern inventions."
+  ]
+ },
+ {
+  "n": "Arrow",
+  "s": [
+   [
+    [
+     "s",
+     811
+    ],
+    [
+     "s",
+     354
+    ],
+    [
+     "s",
+     291
+    ]
+   ],
+   [
+    [
+     "s",
+     812
+    ],
+    [
+     "s",
+     354
+    ]
+   ]
+  ],
+  "l": [
+   -69,
+   18
+  ],
+  "facts": [
+   "Sagitta, the arrow \u2014 the third-smallest constellation of the 88.",
+   "Its brightest star, Sham, is an aging orange giant.",
+   "Contains the faint globular cluster M71 and the gorgeous Dumbbell's neighbor region."
+  ]
+ },
+ {
+  "n": "Archer",
+  "s": [
+   [
+    [
+     "s",
+     191
+    ],
+    [
+     "s",
+     36
+    ],
+    [
+     "s",
+     117
+    ],
+    [
+     "s",
+     137
+    ],
+    [
+     "s",
+     434
+    ]
+   ],
+   [
+    [
+     "s",
+     500
+    ],
+    [
+     "s",
+     501
+    ],
+    [
+     "s",
+     102
+    ],
+    [
+     "s",
+     207
+    ],
+    [
+     "s",
+     137
+    ]
+   ],
+   [
+    [
+     "s",
+     596
+    ],
+    [
+     "s",
+     796
+    ],
+    [
+     "s",
+     1137
+    ],
+    [
+     "s",
+     1013
+    ],
+    [
+     "s",
+     1669
+    ],
+    [
+     "s",
+     1386
+    ],
+    [
+     "s",
+     53
+    ],
+    [
+     "s",
+     207
+    ],
+    [
+     "s",
+     117
+    ],
+    [
+     "s",
+     170
+    ],
+    [
+     "s",
+     36
+    ],
+    [
+     "s",
+     102
+    ],
+    [
+     "s",
+     242
+    ],
+    [
+     "s",
+     53
+    ],
+    [
+     "s",
+     388
+    ],
+    [
+     "s",
+     154
+    ],
+    [
+     "s",
+     1412
+    ],
+    [
+     "s",
+     478
+    ],
+    [
+     "s",
+     942
+    ]
+   ],
+   [
+    [
+     "s",
+     388
+    ],
+    [
+     "s",
+     297
+    ],
+    [
+     "s",
+     1385
+    ],
+    [
+     "s",
+     53
+    ]
+   ]
+  ],
+  "l": [
+   -67.5,
+   -34
+  ],
+  "facts": [
+   "Sagittarius, the archer, aims his arrow at the heart of the Milky Way.",
+   "The galactic center lies here \u2014 the supermassive black hole Sagittarius A* lives behind its stars.",
+   "The famous Teapot asterism sits within its borders."
+  ]
+ },
+ {
+  "n": "Scorpion",
+  "s": [
+   [
+    [
+     "s",
+     157
+    ],
+    [
+     "s",
+     77
+    ],
+    [
+     "s",
+     98
+    ]
+   ],
+   [
+    [
+     "s",
+     77
+    ],
+    [
+     "s",
+     159
+    ],
+    [
+     "s",
+     16
+    ],
+    [
+     "s",
+     136
+    ],
+    [
+     "s",
+     78
+    ],
+    [
+     "s",
+     177
+    ],
+    [
+     "s",
+     339
+    ],
+    [
+     "s",
+     240
+    ],
+    [
+     "s",
+     41
+    ],
+    [
+     "s",
+     172
+    ],
+    [
+     "s",
+     84
+    ],
+    [
+     "s",
+     26
+    ]
+   ]
+  ],
+  "l": [
+   -111,
+   -38
+  ],
+  "facts": [
+   "Scorpius, the scorpion of Orion's fatal legend \u2014 the two constellations are placed on opposite sides of the sky.",
+   "Antares, its red supergiant heart, means 'rival of Mars'.",
+   "One of the most striking constellations, with a long curved tail of bright stars."
+  ]
+ },
+ {
+  "n": "Sculptor",
+  "s": [
+   [
+    [
+     "s",
+     716
+    ],
+    [
+     "s",
+     1014
+    ],
+    [
+     "s",
+     827
+    ],
+    [
+     "s",
+     800
+    ]
+   ]
+  ],
+  "l": [
+   1.5,
+   -33
+  ],
+  "facts": [
+   "Sculptor, the sculptor's workshop, from Lacaille's era of tool constellations.",
+   "Contains the Sculptor Dwarf, a satellite galaxy of the Milky Way.",
+   "The South Galactic Pole lies within its boundaries."
+  ]
+ },
+ {
+  "n": "Shield",
+  "s": [
+   [
+    [
+     "s",
+     444
+    ],
+    [
+     "s",
+     646
+    ],
+    [
+     "s",
+     1136
+    ],
+    [
+     "s",
+     1104
+    ],
+    [
+     "s",
+     444
+    ]
+   ]
+  ],
+  "l": [
+   -78,
+   -12.5
+  ],
+  "facts": [
+   "Scutum, the shield of John III Sobieski, King of Poland, added by Hevelius.",
+   "Holds the Wild Duck Cluster, M11, one of the richest open clusters known.",
+   "One of the smallest constellations, wedged between the Eagle and the Serpent."
+  ]
+ },
+ {
+  "n": "Serpent",
+  "s": [
+   [
+    [
+     "s",
+     345
+    ],
+    [
+     "s",
+     930
+    ],
+    [
+     "s",
+     577
+    ],
+    [
+     "s",
+     442
+    ],
+    [
+     "s",
+     345
+    ],
+    [
+     "s",
+     411
+    ],
+    [
+     "s",
+     104
+    ],
+    [
+     "s",
+     368
+    ],
+    [
+     "s",
+     119
+    ]
+   ]
+  ],
+  "l": [
+   -79.5,
+   3
+  ],
+  "facts": [
+   "Serpens is split in two by Ophiuchus \u2014 the only constellation divided into separate pieces.",
+   "Serpens Cauda (the tail) holds the Eagle Nebula and Pillars of Creation.",
+   "Serpens Caput (the head) contains the globular cluster M5."
+  ]
+ },
+ {
+  "n": "Serpent",
+  "s": [
+   [
+    [
+     "s",
+     87
+    ],
+    [
+     "s",
+     304
+    ],
+    [
+     "s",
+     241
+    ],
+    [
+     "s",
+     1230
+    ],
+    [
+     "s",
+     218
+    ],
+    [
+     "s",
+     1043
+    ]
+   ]
+  ],
+  "l": [
+   -79.5,
+   3
+  ],
+  "facts": [
+   "Serpens is split in two by Ophiuchus \u2014 the only constellation divided into separate pieces.",
+   "Serpens Cauda (the tail) holds the Eagle Nebula and Pillars of Creation.",
+   "Serpens Caput (the head) contains the globular cluster M5."
+  ]
+ },
+ {
+  "n": "Sextant",
+  "s": [
+   [
+    [
+     "s",
+     895
+    ],
+    [
+     "s",
+     1759
+    ],
+    [
+     "s",
+     2033
+    ],
+    [
+     "s",
+     1783
+    ]
+   ]
+  ],
+  "l": [
+   157.5,
+   -7
+  ],
+  "facts": [
+   "Sextans, the sextant of navigation, another tool constellation.",
+   "Contains a distant galaxy cluster, Abell 2925.",
+   "Has no bright stars \u2014 its brightest is only 4th magnitude."
+  ]
+ },
+ {
+  "n": "Bull",
+  "s": [
+   [
+    [
+     "s",
+     168
+    ],
+    [
+     "s",
+     13
+    ],
+    [
+     "s",
+     258
+    ],
+    [
+     "s",
+     343
+    ],
+    [
+     "s",
+     393
+    ],
+    [
+     "s",
+     300
+    ],
+    [
+     "s",
+     28
+    ]
+   ],
+   [
+    [
+     "s",
+     343
+    ],
+    [
+     "s",
+     261
+    ],
+    [
+     "s",
+     375
+    ],
+    [
+     "s",
+     471
+    ]
+   ],
+   [
+    [
+     "s",
+     375
+    ],
+    [
+     "s",
+     332
+    ],
+    [
+     "s",
+     707
+    ]
+   ]
+  ],
+  "l": [
+   54,
+   15
+  ],
+  "facts": [
+   "Taurus the Bull, with the V-shaped Hyades cluster forming its face.",
+   "Aldebaran, its orange eye, lies 65 light-years away.",
+   "The Pleiades, the Seven Sisters, graze the Bull's shoulder \u2014 one of the most beautiful star clusters in the sky."
+  ]
+ },
+ {
+  "n": "Telescope",
+  "s": [
+   [
+    [
+     "s",
+     941
+    ],
+    [
+     "s",
+     286
+    ],
+    [
+     "s",
+     581
+    ]
+   ]
+  ],
+  "l": [
+   -82.5,
+   -54
+  ],
+  "facts": [
+   "Telescopium, Lacaille's tribute to the telescope itself.",
+   "Contains the interacting group NGC 6845.",
+   "A faint southern constellation with few notable objects."
+  ]
+ },
+ {
+  "n": "Triangle",
+  "s": [
+   [
+    [
+     "s",
+     266
+    ],
+    [
+     "s",
+     174
+    ],
+    [
+     "s",
+     536
+    ],
+    [
+     "s",
+     266
+    ]
+   ]
+  ],
+  "l": [
+   27,
+   34
+  ],
+  "facts": [
+   "Triangulum, the triangle \u2014 one of Ptolemy's original 48 constellations.",
+   "Holds M33, the Triangulum Galaxy, third-largest member of the Local Group.",
+   "Represents the island of Sicily in one ancient tradition."
+  ]
+ },
+ {
+  "n": "Southern\u2005Triangle",
+  "s": [
+   [
+    [
+     "s",
+     43
+    ],
+    [
+     "s",
+     140
+    ],
+    [
+     "s",
+     151
+    ],
+    [
+     "s",
+     43
+    ]
+   ]
+  ],
+  "l": [
+   -120,
+   -67.5
+  ],
+  "facts": [
+   "Triangulum Australe, the southern triangle, brighter and more compact than its northern cousin.",
+   "Its three stars form a nearly perfect equilateral triangle.",
+   "Contains the bright open cluster NGC 6025."
+  ]
+ },
+ {
+  "n": "Toucan",
+  "s": [
+   [
+    [
+     "s",
+     152
+    ],
+    [
+     "s",
+     519
+    ],
+    [
+     "s",
+     779
+    ],
+    [
+     "s",
+     652
+    ],
+    [
+     "s",
+     912
+    ],
+    [
+     "s",
+     934
+    ],
+    [
+     "s",
+     152
+    ]
+   ]
+  ],
+  "l": [
+   -12,
+   -64
+  ],
+  "facts": [
+   "Tucana, the toucan of the southern sky, named by Dutch navigators.",
+   "Holds 47 Tucanae, the second-brightest globular cluster in the sky.",
+   "The Small Magellanic Cloud drifts within its borders."
+  ]
+ },
+ {
+  "n": "Big\u2005Dipper",
+  "s": [
+   [
+    [
+     "s",
+     239
+    ],
+    [
+     "s",
+     37
+    ],
+    [
+     "s",
+     81
+    ],
+    [
+     "s",
+     86
+    ],
+    [
+     "s",
+     239
+    ],
+    [
+     "s",
+     34
+    ],
+    [
+     "s",
+     70
+    ],
+    [
+     "s",
+     39
+    ]
+   ],
+   [
+    [
+     "s",
+     86
+    ],
+    [
+     "s",
+     360
+    ],
+    [
+     "s",
+     284
+    ],
+    [
+     "s",
+     751
+    ]
+   ],
+   [
+    [
+     "s",
+     360
+    ],
+    [
+     "s",
+     175
+    ],
+    [
+     "s",
+     189
+    ]
+   ],
+   [
+    [
+     "s",
+     175
+    ],
+    [
+     "s",
+     273
+    ]
+   ],
+   [
+    [
+     "s",
+     37
+    ],
+    [
+     "s",
+     344
+    ],
+    [
+     "s",
+     249
+    ],
+    [
+     "s",
+     403
+    ],
+    [
+     "s",
+     81
+    ]
+   ],
+   [
+    [
+     "s",
+     81
+    ],
+    [
+     "s",
+     971
+    ],
+    [
+     "s",
+     205
+    ],
+    [
+     "s",
+     197
+    ]
+   ],
+   [
+    [
+     "s",
+     315
+    ],
+    [
+     "s",
+     205
+    ]
+   ]
+  ],
+  "l": [
+   165,
+   48
+  ],
+  "facts": [
+   "Ursa Major, the Great Bear, whose Big Dipper asterism guides observers to the North Star.",
+   "M81 and M82, a famous interacting galaxy pair, live here.",
+   "Its Dipper stars move together as a genuine stellar family \u2014 the Ursa Major Moving Group."
+  ]
+ },
+ {
+  "n": "Little\u2005Dipper",
+  "s": [
+   [
+    [
+     "s",
+     711
+    ],
+    [
+     "s",
+     1533
+    ],
+    [
+     "s",
+     176
+    ],
+    [
+     "s",
+     58
+    ],
+    [
+     "s",
+     711
+    ],
+    [
+     "s",
+     637
+    ],
+    [
+     "s",
+     775
+    ],
+    [
+     "s",
+     47
+    ]
+   ]
+  ],
+  "l": [
+   -133.5,
+   68
+  ],
+  "facts": [
+   "Ursa Minor, the Little Bear, whose tail holds Polaris, the North Star.",
+   "Polaris lies almost exactly at the north celestial pole \u2014 it will drift away over centuries of precession.",
+   "The 'Little Dipper' has guided navigators for thousands of years."
+  ]
+ },
+ {
+  "n": "Sails",
+  "s": [
+   [
+    [
+     "s",
+     45
+    ],
+    [
+     "s",
+     91
+    ],
+    [
+     "s",
+     295
+    ],
+    [
+     "s",
+     113
+    ],
+    [
+     "s",
+     439
+    ],
+    [
+     "s",
+     328
+    ],
+    [
+     "s",
+     69
+    ],
+    [
+     "s",
+     33
+    ]
+   ]
+  ],
+  "l": [
+   143.25,
+   -46
+  ],
+  "facts": [
+   "Vela, the sails of the Argo, split off from the great ship in 1930.",
+   "Holds the Vela Pulsar, the remnant of a supernova seen about 11,000 years ago.",
+   "The Gum Nebula, one of the largest known emission nebulae, sprawls across its borders."
+  ]
+ },
+ {
+  "n": "Virgin",
+  "s": [
+   [
+    [
+     "s",
+     544
+    ],
+    [
+     "s",
+     323
+    ],
+    [
+     "s",
+     466
+    ],
+    [
+     "s",
+     122
+    ],
+    [
+     "s",
+     797
+    ],
+    [
+     "s",
+     15
+    ],
+    [
+     "s",
+     562
+    ],
+    [
+     "s",
+     455
+    ]
+   ],
+   [
+    [
+     "s",
+     145
+    ],
+    [
+     "s",
+     256
+    ],
+    [
+     "s",
+     122
+    ]
+   ],
+   [
+    [
+     "s",
+     797
+    ],
+    [
+     "s",
+     253
+    ],
+    [
+     "s",
+     656
+    ],
+    [
+     "s",
+     376
+    ]
+   ]
+  ],
+  "l": [
+   -160.5,
+   -4
+  ],
+  "facts": [
+   "Virgo, the maiden of the zodiac \u2014 the second-largest constellation of the 88.",
+   "Spica, its brightest star, is actually four stars bound together.",
+   "The Virgo Cluster holds more than 1,300 galaxies \u2014 the nearest great cluster to our own."
+  ]
+ },
+ {
+  "n": "Flying\u2005Fish",
+  "s": [
+   [
+    [
+     "s",
+     520
+    ],
+    [
+     "s",
+     395
+    ],
+    [
+     "s",
+     771
+    ],
+    [
+     "s",
+     506
+    ],
+    [
+     "s",
+     401
+    ],
+    [
+     "s",
+     771
+    ],
+    [
+     "s",
+     520
+    ]
+   ]
+  ],
+  "l": [
+   111,
+   -73
+  ],
+  "facts": [
+   "Volans, the flying fish, named for the fish sailors saw gliding over the waves.",
+   "One of the smaller southern constellations, near the Large Magellanic Cloud.",
+   "Charted by Dutch navigators around 1600."
+  ]
+ },
+ {
+  "n": "Little\u2005Fox",
+  "s": [
+   [
+    [
+     "s",
+     1219
+    ],
+    [
+     "s",
+     856
+    ],
+    [
+     "s",
+     993
+    ],
+    [
+     "s",
+     1095
+    ],
+    [
+     "s",
+     919
+    ]
+   ]
+  ],
+  "l": [
+   -64.5,
+   21
+  ],
+  "facts": [
+   "Vulpecula, the little fox, added by Hevelius in 1687.",
+   "Holds the Dumbbell Nebula, M27, one of the finest planetary nebulae for small telescopes.",
+   "Contains the famous Coathanger asterism, a hook of six stars easy to spot in binoculars."
+  ]
+ }
+]

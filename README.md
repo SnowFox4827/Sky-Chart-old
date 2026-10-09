@@ -20,7 +20,12 @@ canvas — no build step, no dependencies in the browser.
   and the equatorial view flips like a southern star atlas.
 - **Pole buttons** — jump to the correct celestial pole in either mode.
 - **Night mode** — turn the whole screen red to preserve your dark adaptation while stargazing.
-- **Search** — jump to any named star or constellation.
+- **Solar System** — live positions of the Sun, Moon and all eight planets, computed
+  in the browser from Keplerian orbital elements (Paul Schlyter's method). Shows
+  phase, magnitude and relative distance; click a body for details.
+- **Search** — jump to any named star, constellation or Solar System body.
+- **Sidebar toggle** — hide the control panel with the ☰ button or the `H` key.
+- **Touch support** — pinch to zoom, two-finger pan on touch screens.
 - **Controls** — magnitude limit slider, star labels, constellation lines,
   and observation date/time.
 
@@ -66,19 +71,23 @@ Sky-Chart/
 │   └── starchart.html         page shell (markup only)
 ├── static/
 │   ├── app.js                 data loading, sky math, rendering and controls
+│   ├── solarsystem.js         Solar System positions (Keplerian elements)
 │   └── style.css              styles
 └── data/
     ├── stars.json             ~8,920 stars: RA (rad), Dec (rad), magnitude, B−V, name
-    └── constellations.json    constellation line segments and label positions
+    ├── constellations.json    constellation line segments and label positions
+    └── solar-system.json      orbital elements for Sun, Moon and the eight planets
 ```
 
 ## File details
 
-- `templates/starchart.html` — page markup; loads `/static/style.css` and `/static/app.js`
+- `templates/starchart.html` — page markup; loads `/static/style.css`, `/static/solarsystem.js` and `/static/app.js`
 - `static/style.css` — styles
 - `static/app.js` — fetches `/data/*.json`, then handles sky math, rendering and controls
+- `static/solarsystem.js` — Kepler equation solver and geocentric positions of Solar System bodies; math only, data lives in JSON
 - `data/stars.json` — ~8,920 stars: RA (radians), Dec (radians), magnitude, B−V color, name
 - `data/constellations.json` — constellation line segments and label positions
+- `data/solar-system.json` — orbital elements (epoch 2000.0) for the planets; the Sun follows Earth's mirrored orbit and the Moon's perturbations are hardcoded in `solarsystem.js`
 - `.env.example` — copy to `.env`, change `PORT` to switch ports
 - `Dockerfile`, `docker-compose.yml`
 

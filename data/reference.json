@@ -1,0 +1,61 @@
+{
+ "sunTemp": 5770,
+ "spectralClasses": [
+  {
+   "letter": "O",
+   "color": "blue-white",
+   "tempMin": 30000,
+   "tempMax": 50000,
+   "fact": "rarest of all spectral classes \u2014 less than 1 in 3 million stars",
+   "bvMax": -0.33
+  },
+  {
+   "letter": "B",
+   "color": "blue-white",
+   "tempMin": 10000,
+   "tempMax": 30000,
+   "fact": "home to most of the naked-eye giants like Rigel and Bellatrix",
+   "bvMax": -0.02
+  },
+  {
+   "letter": "A",
+   "color": "white",
+   "tempMin": 7500,
+   "tempMax": 10000,
+   "fact": "the class of Vega, Sirius and the vast majority of apparently bright stars",
+   "bvMax": 0.3
+  },
+  {
+   "letter": "F",
+   "color": "yellow-white",
+   "tempMin": 6000,
+   "tempMax": 7500,
+   "fact": "a Sun-like class that burns its hydrogen a bit faster than the Sun",
+   "bvMax": 0.58
+  },
+  {
+   "letter": "G",
+   "color": "yellow",
+   "tempMin": 5200,
+   "tempMax": 6000,
+   "fact": "the Sun's own class (G2 V) \u2014 warm, stable and long-lived",
+   "bvMax": 0.81
+  },
+  {
+   "letter": "K",
+   "color": "orange",
+   "tempMin": 3700,
+   "tempMax": 5200,
+   "fact": "the most common naked-eye class, burning slowly and steadily",
+   "bvMax": 1.4
+  },
+  {
+   "letter": "M",
+   "color": "red",
+   "tempMin": 2400,
+   "tempMax": 3700,
+   "fact": "by far the most common star class in the galaxy, though too dim to see individually from Earth",
+   "bvMax": 99.0
+  }
+ ]
+}

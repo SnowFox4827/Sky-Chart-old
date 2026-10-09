@@ -1,0 +1,355 @@
+{
+ "dso": [
+  {
+   "name": "Andromeda Galaxy",
+   "type": "galaxy",
+   "ra": 10.6847,
+   "dec": 41.269,
+   "mag": 3.4,
+   "dist": "2.5 million ly",
+   "facts": [
+    "The most distant object most people can see with the naked eye \u2014 its light left 2.5 million years ago.",
+    "On a collision course with the Milky Way; the merger is expected in about 4.5 billion years.",
+    "Spans about six full moons of sky, but only its bright core is visible unaided."
+   ]
+  },
+  {
+   "name": "Orion Nebula",
+   "type": "nebula",
+   "ra": 83.822,
+   "dec": -5.391,
+   "mag": 4.0,
+   "dist": "1,344 ly",
+   "facts": [
+    "The brightest nebula in the night sky \u2014 a fuzzy patch in Orion's sword, even with the naked eye.",
+    "A stellar nursery containing roughly 700 stars in the making.",
+    "The four hot young stars at its heart are called the Trapezium."
+   ]
+  },
+  {
+   "name": "Pleiades",
+   "type": "open cluster",
+   "ra": 56.87,
+   "dec": 24.117,
+   "mag": 1.6,
+   "dist": "444 ly",
+   "facts": [
+    "Also called the Seven Sisters; visible from every inhabited continent.",
+    "The Japanese car maker Subaru is named after this cluster \u2014 its logo shows six stars.",
+    "Hot blue young stars wrapped in wispy reflection nebulosity."
+   ]
+  },
+  {
+   "name": "Great Hercules Cluster",
+   "type": "globular cluster",
+   "ra": 250.423,
+   "dec": 36.46,
+   "mag": 5.8,
+   "dist": "22,200 ly",
+   "facts": [
+    "About 300,000 stars packed into a ball only 145 light-years across.",
+    "Target of the 1974 Arecibo message, humanity's first deliberate radio broadcast to the stars.",
+    "The finest globular cluster visible from northern latitudes."
+   ]
+  },
+  {
+   "name": "Lagoon Nebula",
+   "type": "nebula",
+   "ra": 270.92,
+   "dec": -24.38,
+   "mag": 6.0,
+   "dist": "4,100 ly",
+   "facts": [
+    "Visible from dark sites as a pale patch above the Teapot of Sagittarius.",
+    "Contains the Hourglass region, lit by two ferociously hot stars.",
+    "Dark dust columns cradle stars still being born."
+   ]
+  },
+  {
+   "name": "Ring Nebula",
+   "type": "planetary nebula",
+   "ra": 283.356,
+   "dec": 33.029,
+   "mag": 8.8,
+   "dist": "2,570 ly",
+   "facts": [
+    "A dying sun-like star shedding its outer layers into a glowing ring.",
+    "The white dwarf at its center burns at about 100,000 K.",
+    "Will fade away over the next few thousand years."
+   ]
+  },
+  {
+   "name": "Dumbbell Nebula",
+   "type": "planetary nebula",
+   "ra": 299.598,
+   "dec": 22.721,
+   "mag": 7.4,
+   "dist": "1,360 ly",
+   "facts": [
+    "One of the brightest planetary nebulae \u2014 a preview of the Sun's far future.",
+    "Its hourglass shape comes from gas escaping along two opposite directions.",
+    "Discovered by Charles Messier in 1764."
+   ]
+  },
+  {
+   "name": "Sombrero Galaxy",
+   "type": "galaxy",
+   "ra": 189.998,
+   "dec": -11.623,
+   "mag": 8.0,
+   "dist": "29 million ly",
+   "facts": [
+    "Famous for its crisp edge-on dust lane, like a hat's brim.",
+    "Holds a supermassive black hole of roughly a billion solar masses.",
+    "Bright enough for small telescopes under dark skies."
+   ]
+  },
+  {
+   "name": "Whirlpool Galaxy",
+   "type": "galaxy",
+   "ra": 202.47,
+   "dec": 47.195,
+   "mag": 8.4,
+   "dist": "31 million ly",
+   "facts": [
+    "The textbook grand-design spiral, printed in nearly every astronomy book.",
+    "Its small companion galaxy is gravitationally warping its arms.",
+    "The first galaxy recognized as a spiral, in 1845."
+   ]
+  },
+  {
+   "name": "Omega Nebula",
+   "type": "nebula",
+   "ra": 275.205,
+   "dec": -16.172,
+   "mag": 6.0,
+   "dist": "5,500 ly",
+   "facts": [
+    "Also called the Swan Nebula for its graceful shape in telescopes.",
+    "One of the youngest star-forming regions known \u2014 about a million years old.",
+    "An easy binocular target from dark sites."
+   ]
+  },
+  {
+   "name": "Trifid Nebula",
+   "type": "nebula",
+   "ra": 271.0,
+   "dec": -22.97,
+   "mag": 6.3,
+   "dist": "4,100 ly",
+   "facts": [
+    "Three-lobed \u2014 dark dust lanes split it visibly in small telescopes.",
+    "Combines three nebula types in one object: emission, reflection, and dark.",
+    "Spans about 40 light-years."
+   ]
+  },
+  {
+   "name": "Globular Cluster M4",
+   "type": "globular cluster",
+   "ra": 245.897,
+   "dec": -26.526,
+   "mag": 5.6,
+   "dist": "7,200 ly",
+   "facts": [
+    "The nearest globular cluster to Earth.",
+    "Contains a famous millisecond pulsar with a planet orbiting it.",
+    "A distinctive bar of red giants streaks across its core."
+   ]
+  },
+  {
+   "name": "Butterfly Cluster",
+   "type": "open cluster",
+   "ra": 258.75,
+   "dec": -32.22,
+   "mag": 4.2,
+   "dist": "1,600 ly",
+   "facts": [
+    "Its brightest star glows orange among about 80 blue-white members.",
+    "Shaped like a butterfly through a telescope.",
+    "Apparent size about that of the full Moon."
+   ]
+  },
+  {
+   "name": "Ptolemy Cluster",
+   "type": "open cluster",
+   "ra": 262.9,
+   "dec": -34.79,
+   "mag": 3.3,
+   "dist": "980 ly",
+   "facts": [
+    "Recorded by Ptolemy in 130 AD \u2014 the oldest documented deep-sky object on this chart.",
+    "A naked-eye cluster of about 100 young stars.",
+    "A favorite binocular target in Scorpius."
+   ]
+  },
+  {
+   "name": "Wild Duck Cluster",
+   "type": "open cluster",
+   "ra": 282.766,
+   "dec": -10.741,
+   "mag": 6.1,
+   "dist": "6,200 ly",
+   "facts": [
+    "One of the richest, most compact open clusters \u2014 resembling a globular at low power.",
+    "Roughly 250 million years old.",
+    "Named by Admiral Smyth for its V shape of ducks in flight."
+   ]
+  },
+  {
+   "name": "Globular Cluster M22",
+   "type": "globular cluster",
+   "ra": 279.1,
+   "dec": -23.905,
+   "mag": 5.1,
+   "dist": "10,600 ly",
+   "facts": [
+    "One of the brightest globulars \u2014 visible to the naked eye from dark southern sites.",
+    "Contains over 70,000 stars.",
+    "Fully resolves into individual points of light in telescopes."
+   ]
+  },
+  {
+   "name": "Triangulum Galaxy",
+   "type": "galaxy",
+   "ra": 23.462,
+   "dec": 30.66,
+   "mag": 5.7,
+   "dist": "3 million ly",
+   "facts": [
+    "Third-largest member of our Local Group.",
+    "Under very dark skies, one of the farthest naked-eye objects you can spot.",
+    "Smaller and dimmer than Andromeda but more face-on."
+   ]
+  },
+  {
+   "name": "Crab Nebula",
+   "type": "nebula",
+   "ra": 83.633,
+   "dec": 22.015,
+   "mag": 8.4,
+   "dist": "6,500 ly",
+   "facts": [
+    "The remnant of a supernova seen from Earth in 1054 AD, recorded by Chinese astronomers.",
+    "Contains a pulsar spinning 30 times per second.",
+    "The supernova was bright enough to see in daylight for 23 days."
+   ]
+  },
+  {
+   "name": "Beehive Cluster",
+   "type": "open cluster",
+   "ra": 130.1,
+   "dec": 19.67,
+   "mag": 3.7,
+   "dist": "610 ly",
+   "facts": [
+    "Known since antiquity; Hipparchus called it the Little Cloud.",
+    "Also called Praesepe \u2014 'the manger'.",
+    "About 600 million years old, the same age as the Hyades."
+   ]
+  },
+  {
+   "name": "Bode's Galaxy",
+   "type": "galaxy",
+   "ra": 148.888,
+   "dec": 69.065,
+   "mag": 6.9,
+   "dist": "12 million ly",
+   "facts": [
+    "One of the brightest galaxies in the northern sky, paired with the Cigar Galaxy.",
+    "A grand-design spiral visible in binoculars from dark skies.",
+    "Holds a central black hole of about 70 million solar masses."
+   ]
+  },
+  {
+   "name": "Cigar Galaxy",
+   "type": "galaxy",
+   "ra": 148.968,
+   "dec": 69.681,
+   "mag": 8.4,
+   "dist": "12 million ly",
+   "facts": [
+    "A starburst galaxy, forming stars at ten times the Milky Way's rate.",
+    "Gravitational tugs from Bode's Galaxy funnel gas into its core, fueling the burst.",
+    "A supernova appeared here in 2014 \u2014 the closest in decades."
+   ]
+  },
+  {
+   "name": "Double Cluster",
+   "type": "open cluster",
+   "ra": 36.9,
+   "dec": 57.15,
+   "mag": 4.3,
+   "dist": "7,500 ly",
+   "facts": [
+    "Two young clusters side by side in Perseus \u2014 unmistakable in binoculars.",
+    "Only about 13 million years old; its stars are still massive and blue.",
+    "Catalogued by Hipparchus around 130 BC."
+   ]
+  },
+  {
+   "name": "Omega Centauri",
+   "type": "globular cluster",
+   "ra": 201.697,
+   "dec": -47.479,
+   "mag": 3.9,
+   "dist": "17,000 ly",
+   "facts": [
+    "The largest globular orbiting the Milky Way \u2014 about 10 million stars.",
+    "Possibly the stripped core of a dwarf galaxy the Milky Way devoured long ago.",
+    "Unusually for a globular, it holds several generations of stars."
+   ]
+  },
+  {
+   "name": "Sagittarius Star Cloud",
+   "type": "star cloud",
+   "ra": 272.4,
+   "dec": -18.47,
+   "mag": 4.9,
+   "dist": "10,000 ly",
+   "facts": [
+    "A vast patch of the Milky Way's disk visible to the naked eye as a glowing cloud.",
+    "Your gaze here passes through a gap in dark dust lanes \u2014 a window into the galaxy.",
+    "Contains an estimated half a million stars in the telescopic field."
+   ]
+  },
+  {
+   "name": "Eagle Nebula",
+   "type": "nebula",
+   "ra": 274.6,
+   "dec": -13.8,
+   "mag": 6.0,
+   "dist": "5,700 ly",
+   "facts": [
+    "Home of the Pillars of Creation, made famous by the Hubble Space Telescope.",
+    "Young massive stars are carving cavities out of dense molecular gas.",
+    "Spans about 70 by 55 light-years."
+   ]
+  },
+  {
+   "name": "North America Nebula",
+   "type": "nebula",
+   "ra": 306.0,
+   "dec": 44.2,
+   "mag": 4.0,
+   "dist": "2,590 ly",
+   "facts": [
+    "Faintly visible to the naked eye from dark sites \u2014 just off Deneb in Cygnus.",
+    "Its shape resembles the continent; the 'Gulf of Mexico' is a dark dust lane.",
+    "Lit mostly by the ultraviolet glow of nearby Deneb."
+   ]
+  },
+  {
+   "name": "Coalsack Nebula",
+   "type": "dark nebula",
+   "ra": 186.6,
+   "dec": -63.4,
+   "mag": 0.0,
+   "dist": "600 ly",
+   "facts": [
+    "A famous dark nebula beside the Southern Cross \u2014 a patch of sky with no stars.",
+    "Cold dust blocks the light of the Milky Way behind it.",
+    "Known to Aboriginal Australian peoples for tens of thousands of years."
+   ]
+  }
+ ]
+}
