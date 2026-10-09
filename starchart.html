@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-store">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Star Chart</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<canvas id="sky"></canvas>
+<button class="panel-toggle shifted" id="panelToggle" title="Hide panel (H)">☰</button>
+<div class="panel">
+  <h1>✦ STAR CHART</h1>
+  <small>8920 stars · mag −1.4 to 6.5</small>
+  <input id="search" type="text" placeholder="Search a star (e.g. Vega)…" autocomplete="off">
+  <div class="row"><span>Limit&nbsp;mag</span><input type="range" id="maglim" class="grow" min="1" max="6.5" step="0.1" value="5.5"><b id="magval">5.5</b></div>
+  <div class="row"><label class="grow check"><input type="checkbox" id="labels" checked> Star names</label></div>
+  <div class="row"><label class="grow check"><input type="checkbox" id="constl" checked> Constellations</label></div>
+  <div class="row"><label class="grow check"><input type="checkbox" id="horizon" checked> Horizon line</label></div>
+  <div class="row"><label class="grow check"><input type="checkbox" id="night"> Night mode (red)</label></div>
+  <div class="row"><b class="flush">N</b><div class="switch" id="hemis"><div class="knob"></div></div><b class="flush">S</b></div>
+  <div class="row"><span>Lat</span><input id="lat" class="field w-lat" type="text" value="41.88"><span>Lon</span><input id="lon" class="field w-lon" type="text" value="-87.63"></div>
+  <div class="row"><input id="obsTime" class="field grow" type="datetime-local"><button class="btn btn-inline" id="nowBtn">Now</button></div>
+  <div id="info"></div>
+  <button class="btn" id="north">Go to north pole</button>
+  <button class="btn" id="south">Go to south pole</button>
+  <div class="hint">Drag to pan · scroll to zoom · click a star for details</div>
+<div id="loadmsg" class="loadmsg" hidden>Loading star data…</div>
+</div>
+<div id="tip"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
