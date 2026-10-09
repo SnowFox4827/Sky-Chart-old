@@ -100,10 +100,15 @@
   "l": [
    0.75,
    43
+  ],
+  "facts": [
+   "Home to the Andromeda Galaxy, the most distant thing visible to the naked eye at 2.5 million light-years.",
+   "The princess of the myth \u2014 chained to a rock as a sacrifice before Perseus rescued her.",
+   "Its brightest star, Alpheratz, technically belongs to the Square of Pegasus."
   ]
  },
  {
-  "n": "Air Pump",
+  "n": "Air\u2005Pump",
   "s": [
    [
     [
@@ -123,10 +128,15 @@
   "l": [
    156,
    -36
+  ],
+  "facts": [
+   "One of 14 constellations invented by Nicolas-Louis de Lacaille in the 1750s.",
+   "Named after the air pump, an 18th-century scientific instrument.",
+   "Contains the planetary nebula NGC 3132, nicknamed the Eight-Burst Nebula."
   ]
  },
  {
-  "n": "Bird of Paradise",
+  "n": "Bird\u2005of\u2005Paradise",
   "s": [
    [
     [
@@ -150,6 +160,11 @@
   "l": [
    -120,
    -74
+  ],
+  "facts": [
+   "Named after the spectacular birds of paradise New Guinea explorers brought back to Europe.",
+   "Created by Dutch navigators Keyser and de Houtman around 1600.",
+   "One of the southern constellations invisible from most of the USA."
   ]
  },
  {
@@ -245,6 +260,11 @@
   "l": [
    -22.5,
    -5
+  ],
+  "facts": [
+   "The water-bearer of the zodiac, associated with floods and the rainy season.",
+   "Its Eta Aquarid meteor shower comes from debris of Halley's Comet.",
+   "The great globular cluster M2 floats here, 40,000 light-years away."
   ]
  },
  {
@@ -296,6 +316,11 @@
   "l": [
    -69,
    8
+  ],
+  "facts": [
+   "Contains the Eagle Nebula, home of the famous Pillars of Creation.",
+   "The star Altair anchors the Summer Triangle and spins once every 9 hours, fast enough to visibly flatten it.",
+   "In mythology it was Zeus's eagle, bearer of his thunderbolts."
   ]
  },
  {
@@ -335,6 +360,11 @@
   "l": [
    -102,
    -56
+  ],
+  "facts": [
+   "The celestial altar of the gods, on which they swore oaths before battling the Titans.",
+   "Lies in the Milky Way near the galactic center, rich in star clusters.",
+   "One of the 48 classical constellations of Ptolemy, still official today."
   ]
  },
  {
@@ -362,6 +392,11 @@
   "l": [
    42,
    22
+  ],
+  "facts": [
+   "The golden-fleeced ram of the Argonaut legend.",
+   "Its brightest star, Hamal, means 'the head of the ram' in Arabic.",
+   "The First Point of Aries, the zero mark of right ascension, sat here in antiquity \u2014 precession has since carried it into the Fishes."
   ]
  },
  {
@@ -417,6 +452,11 @@
   "l": [
    82.5,
    37
+  ],
+  "facts": [
+   "Usually drawn as a man carrying a goat on his shoulder \u2014 Capella, the 'Goat Star'.",
+   "Capella is actually four stars: two giants and two red dwarfs.",
+   "Holds Menkalinan, a famous eclipsing binary of changing brightness."
   ]
  },
  {
@@ -490,10 +530,15 @@
   "l": [
    -136.5,
    35
+  ],
+  "facts": [
+   "Shaped like a kite chasing the Great Bear around the pole.",
+   "Arcturus, its anchor star, is the brightest star north of the celestial equator.",
+   "Arcturus's light opened the 1933 Chicago World's Fair, having left the star in 1893 \u2014 the year of the previous fair."
   ]
  },
  {
-  "n": "Graving tool",
+  "n": "Graving\u2005tool",
   "s": [
    [
     [
@@ -517,6 +562,11 @@
   "l": [
    73.5,
    -42
+  ],
+  "facts": [
+   "The engraver's tool, invented by Lacaille to honor the draughtsman's craft.",
+   "Split from the larger figure of the Ship long ago.",
+   "One of the faintest of the 88 constellations."
   ]
  },
  {
@@ -566,6 +616,11 @@
   "l": [
    84,
    72
+  ],
+  "facts": [
+   "Camelopardalis, the giraffe \u2014 a faint patch of sky with no stars brighter than 4th magnitude.",
+   "Named by Petrus Plancius in 1613, replacing an older 'Camel' figure.",
+   "Contains NGC 2403, one of the brightest galaxies outside the Messier list."
   ]
  },
  {
@@ -603,10 +658,15 @@
   "l": [
    128.25,
    27
+  ],
+  "facts": [
+   "Cancer, the crab sent by Hera to nip Hercules \u2014 it was crushed, then immortalized in the sky.",
+   "Contains the Beehive Cluster, visible to the naked eye as a fuzzy patch since antiquity.",
+   "The Tropic of Cancer got its name because the Sun passed through this constellation at the June solstice."
   ]
  },
  {
-  "n": "Hunting Dogs",
+  "n": "Hunting\u2005Dogs",
   "s": [
    [
     [
@@ -622,10 +682,15 @@
   "l": [
    -168,
    43
+  ],
+  "facts": [
+   "Canes Venatici, added by Hevelius in 1687 from stars once assigned to the Great Bear.",
+   "Holds M51, the Whirlpool Galaxy \u2014 the first galaxy recognized as a spiral.",
+   "Cor Caroli, 'Charles's Heart', honors King Charles I of England."
   ]
  },
  {
-  "n": "Great Dog",
+  "n": "Great\u2005Dog",
   "s": [
    [
     [
@@ -693,10 +758,15 @@
   "l": [
    97.5,
    -26
+  ],
+  "facts": [
+   "Home of Sirius, the brightest star in the entire night sky.",
+   "Sirius has a companion, Sirius B, the first white dwarf ever found \u2014 'the Pup'.",
+   "Contains the rich open cluster M41, just south of Sirius."
   ]
  },
  {
-  "n": "Little Dog",
+  "n": "Little\u2005Dog",
   "s": [
    [
     [
@@ -712,6 +782,11 @@
   "l": [
    109.5,
    5
+  ],
+  "facts": [
+   "Procyon, its brightest star, means 'before the dog' \u2014 it rises just ahead of Sirius.",
+   "One of the smallest constellations on the official 88 list.",
+   "Procyon is also one of the nearest star systems, at just 11.5 light-years."
   ]
  },
  {
@@ -767,6 +842,11 @@
   "l": [
    -45,
    -22
+  ],
+  "facts": [
+   "The sea-goat: part goat, part fish, in myth the god Pan taking refuge in a river.",
+   "Its Deneb Algedi ('tail of the goat') is an eclipsing binary.",
+   "The Winter Solstice point lies in Capricorn \u2014 the Tropic of Capricorn is named for it."
   ]
  },
  {
@@ -860,6 +940,11 @@
   "l": [
    144,
    -66
+  ],
+  "facts": [
+   "Carina, the keel of the great ship Argo, split into four pieces in 1930.",
+   "Holds Canopus, the second-brightest star in the sky.",
+   "The erratic hypergiant Eta Carinae may one day light up as a supernova visible in daylight."
   ]
  },
  {
@@ -989,6 +1074,11 @@
   "l": [
    -160.5,
    -40
+  ],
+  "facts": [
+   "Alpha Centauri is the closest star system to Earth \u2014 just 4.4 light-years away.",
+   "Holds Omega Centauri, the grandest globular cluster visible from the Northern Hemisphere's edge.",
+   "In myth, this was Chiron, the wise tutor of heroes."
   ]
  },
  {
@@ -1054,6 +1144,11 @@
   "l": [
    -22.5,
    71
+  ],
+  "facts": [
+   "The king beside Cassiopeia \u2014 a dim figure shaped like a child's house drawing.",
+   "Delta Cephei gave its name to the Cepheid variables that let astronomers measure the universe.",
+   "Contains the red hypergiant Mu Cephei, one of the largest stars known."
   ]
  },
  {
@@ -1129,6 +1224,11 @@
   "l": [
    28.5,
    -5
+  ],
+  "facts": [
+   "Cetus, the sea monster sent to devour Andromeda.",
+   "Mira, 'the wonderful', was the first variable star recognized \u2014 it brightens and fades over 11 months.",
+   "One of the largest constellations, sprawling across the equator."
   ]
  },
  {
@@ -1164,6 +1264,11 @@
   "l": [
    -171,
    -81
+  ],
+  "facts": [
+   "The chameleon, a faint southern figure charted by Keyser and de Houtman.",
+   "Sits near the south celestial pole and never sets for southern polar observers.",
+   "The Chamaeleon dark clouds are a nearby nursery of newborn stars."
   ]
  },
  {
@@ -1187,6 +1292,11 @@
   "l": [
    -142.5,
    -67
+  ],
+  "facts": [
+   "Pyxis, the mariner's compass, once part of the Ship Argo.",
+   "Contains T Pyxidis, a recurrent nova that erupts every few decades.",
+   "A faint equatorial constellation, best seen in southern winter."
   ]
  },
  {
@@ -1224,10 +1334,15 @@
   "l": [
    85.5,
    -39
+  ],
+  "facts": [
+   "Columba, carved out of Canis Major by Petrus Plancius in 1592.",
+   "Commemorates Noah's dove returning with the olive branch.",
+   "Contains the star Arneb, a supergiant at 2,600 light-years."
   ]
  },
  {
-  "n": "Berenice's Hair",
+  "n": "Berenice's\u2005Hair",
   "s": [
    [
     [
@@ -1247,10 +1362,15 @@
   "l": [
    -166.5,
    24
+  ],
+  "facts": [
+   "Coma Berenices honors Queen Berenice II, who cut off her hair as a temple offering.",
+   "Holds the Coma Cluster, thousands of galaxies whose orbits revealed dark matter.",
+   "The North Galactic Pole sits here \u2014 the least dusty window on the universe."
   ]
  },
  {
-  "n": "Southern Crown",
+  "n": "Southern\u2005Crown",
   "s": [
    [
     [
@@ -1290,10 +1410,15 @@
   "l": [
    -78,
    -40
+  ],
+  "facts": [
+   "Corona Australis, the southern crown, a small arc of stars near the Teapot.",
+   "Contains the R Corona Australis reflection nebula, an active star nursery.",
+   "One of the smallest of the 88 constellations."
   ]
  },
  {
-  "n": "Northern Crown",
+  "n": "Northern\u2005Crown",
   "s": [
    [
     [
@@ -1329,6 +1454,11 @@
   "l": [
    -121.5,
    32
+  ],
+  "facts": [
+   "Corona Borealis, a perfect semicircle of stars often called 'the jewelry box'.",
+   "The Blaze Star, T Coronae Borealis, erupts as a nova roughly every 80 years.",
+   "Its brightest star, Alphecca, is an eclipsing binary with a dusty disk."
   ]
  },
  {
@@ -1364,6 +1494,11 @@
   "l": [
    -174,
    -19.5
+  ],
+  "facts": [
+   "Corvus, the crow punished by Apollo for tardiness \u2014 its stars form a small kite.",
+   "Its four bright stars make it easy to spot despite its size.",
+   "The Antennae Galaxies, two colliding spirals, live here."
   ]
  },
  {
@@ -1421,6 +1556,11 @@
   "l": [
    174.75,
    -15
+  ],
+  "facts": [
+   "The goblet of Apollo, placed in the sky beside the crow and the water snake.",
+   "Once said to hold the wine of the gods.",
+   "A compact constellation of 4th-magnitude stars."
   ]
  },
  {
@@ -1452,9 +1592,9 @@
    -62
   ],
   "facts": [
-   "The smallest of the 88 constellations, yet one of the most famous.",
-   "Its long axis points toward the south celestial pole.",
-   "It sits against the rich star fields of the Milky Way, next to the dark Coalsack nebula."
+   "Crux, the Southern Cross \u2014 the smallest constellation of all 88, yet the southern sky's best-known landmark.",
+   "Appears on the flags of Australia, New Zealand, Brazil, Samoa and others.",
+   "The Coalsack, a nearby dark nebula, nestles beside its brightest stars."
   ]
  },
  {
@@ -1508,6 +1648,11 @@
   "l": [
    -52.5,
    50
+  ],
+  "facts": [
+   "Cygnus the Swan flies down the Milky Way along the Summer Triangle.",
+   "Deneb is one of the most luminous stars known \u2014 160,000 times brighter than the Sun.",
+   "The Cygnus X-1 system was the first strong black-hole candidate ever identified."
   ]
  },
  {
@@ -1543,6 +1688,11 @@
   "l": [
    -51,
    6
+  ],
+  "facts": [
+   "Delphinus, a compact chevron of stars named by the Greeks after Poseidon's messenger.",
+   "Holds a nova that appeared in 1967, Nova Delphini 1967.",
+   "One of its stars, Rotanev, is named for an Italian astronomer's real name spelled backwards."
   ]
  },
  {
@@ -1586,6 +1736,11 @@
   "l": [
    76.5,
    -64
+  ],
+  "facts": [
+   "Dorado, the dolphinfish \u2014 Spanish explorers named it for the golden mahi-mahi.",
+   "Holds the Tarantula Nebula, the largest known stellar nursery in the Local Group.",
+   "The Large Magellanic Cloud dominates its patch of sky."
   ]
  },
  {
@@ -1673,6 +1828,11 @@
   "l": [
    -91.5,
    64
+  ],
+  "facts": [
+   "Draco coils between the Big and Little Dippers, guarding the pole in myth.",
+   "Thuban was the pole star when the Egyptians built the pyramids \u2014 it will be again someday.",
+   "The Cat's Eye Nebula here is one of the most complex planetary nebulae ever imaged."
   ]
  },
  {
@@ -1696,6 +1856,11 @@
   "l": [
    -39.75,
    11.5
+  ],
+  "facts": [
+   "Equuleus, the Little Horse, is the second-smallest constellation in the northern sky.",
+   "Has no stars brighter than 4th magnitude.",
+   "Charted by Ptolemy, yet almost nothing bright or famous lives here."
   ]
  },
  {
@@ -1815,6 +1980,11 @@
   "l": [
    52.5,
    -18
+  ],
+  "facts": [
+   "The celestial river, winding from Orion nearly to the south celestial pole.",
+   "Achernar, its southern star, is the flattest known star \u2014 spun so fast it bulges at the equator.",
+   "One of its regions hosts the 'Eridanus Supervoid', a vast cosmic cold spot."
   ]
  },
  {
@@ -1838,6 +2008,11 @@
   "l": [
    40.5,
    -28
+  ],
+  "facts": [
+   "Fornax, the laboratory furnace of Lacaille's instruments.",
+   "The Fornax Cluster is a rich gathering of galaxies, including the Great Barred Spiral.",
+   "Its deep-field images revealed hundreds of dwarf galaxies."
   ]
  },
  {
@@ -1903,6 +2078,11 @@
   "l": [
    107.25,
    23.5
+  ],
+  "facts": [
+   "Castor and Pollux, the twin brothers of Greek myth, immortalized together.",
+   "Pollux hosts a confirmed planet; Castor is actually six stars bound in three pairs.",
+   "The Geminid meteor shower, one of the year's best, radiates from here."
   ]
  },
  {
@@ -1956,6 +2136,11 @@
   "l": [
    -18,
    -41.5
+  ],
+  "facts": [
+   "Grus, the crane, formed from stars once part of the enormous Southern Fish.",
+   "Its brightest star, Alnair, means 'the bright one from the fish's tail'.",
+   "Home to a remarkable trio of interacting spiral galaxies."
   ]
  },
  {
@@ -2063,6 +2248,11 @@
   "l": [
    -106.5,
    35
+  ],
+  "facts": [
+   "The great hero of mythology, kneeling with his club raised.",
+   "Contains the Keystone asterism and the glorious M13 globular cluster.",
+   "M13 is the target of the 1974 Arecibo message \u2014 humanity's first deliberate broadcast to the stars."
   ]
  },
  {
@@ -2098,10 +2288,15 @@
   "l": [
    51,
    -52
+  ],
+  "facts": [
+   "Horologium, the pendulum clock, added by Lacaille to honor timekeeping.",
+   "Holds the Horologium Supercluster, tens of thousands of galaxies deep in the field.",
+   "A faint constellation far from the Milky Way's glare."
   ]
  },
  {
-  "n": "Sea Serpent",
+  "n": "Sea\u2005Serpent",
   "s": [
    [
     [
@@ -2185,6 +2380,11 @@
   "l": [
    150,
    -22
+  ],
+  "facts": [
+   "Hydra is the largest constellation of all 88, stretching a quarter of the way around the sky.",
+   "Its star Alphard means 'the solitary one' \u2014 the only bright star in that stretch of sky.",
+   "Home to the Ghost of Jupiter, a striking planetary nebula."
   ]
  },
  {
@@ -2220,6 +2420,11 @@
   "l": [
    34.5,
    -72
+  ],
+  "facts": [
+   "The Little Water Snake, distinct from the much larger Hydra.",
+   "Sits near the south celestial pole, wedged between the two Magellanic Clouds.",
+   "Charted by Dutch navigators around 1600."
   ]
  },
  {
@@ -2255,6 +2460,11 @@
   "l": [
    -42,
    -55.5
+  ],
+  "facts": [
+   "Indus, the American Indian, honoring peoples encountered by European explorers.",
+   "Its brightest star is a close binary some 90 light-years away.",
+   "A dim southern constellation below the Peacock."
   ]
  },
  {
@@ -2316,6 +2526,11 @@
   "l": [
    -18,
    47
+  ],
+  "facts": [
+   "Lacerta, the lizard, squeezed into the sky by Hevelius between the Swan and the Ladder.",
+   "Holds the star BL Lacertae, prototype of a whole class of violently variable galaxies.",
+   "Contains the small open cluster NGC 7243."
   ]
  },
  {
@@ -2373,10 +2588,15 @@
   "l": [
    159,
    15
+  ],
+  "facts": [
+   "Leo, the lion of Hercules's first labor, recognized by its backward-question-mark Sickle.",
+   "Regulus, the 'little king', sits almost exactly on the ecliptic.",
+   "The Leo Triplet of galaxies \u2014 M65, M66 and NGC 3628 \u2014 lies just under the Lion's hindquarters."
   ]
  },
  {
-  "n": "Little Lion",
+  "n": "Little\u2005Lion",
   "s": [
    [
     [
@@ -2408,6 +2628,11 @@
   "l": [
    157.5,
    30
+  ],
+  "facts": [
+   "Leo Minor, the Lion Cub, carved from bare sky by Hevelius in 1687.",
+   "Its brightest star is an unusual, rapidly rotating giant.",
+   "Has no Messier objects and almost no bright deep-sky sights."
   ]
  },
  {
@@ -2469,6 +2694,11 @@
   "l": [
    88.5,
    -25
+  ],
+  "facts": [
+   "Lepus the Hare cowers beneath Orion's feet, chased by the Great Dog.",
+   "Contains Hind's Crimson Star, a deep-red carbon star famous for its color.",
+   "Globular cluster M79 lives here, unusually far from the galactic center."
   ]
  },
  {
@@ -2514,6 +2744,11 @@
   "l": [
    -129,
    -26
+  ],
+  "facts": [
+   "Libra, the scales \u2014 once the claws of the Scorpion, later the only inanimate zodiac figure.",
+   "Its star names Zubeneschamali and Zubenelgenubi mean 'northern claw' and 'southern claw'.",
+   "The Sun's autumnal equinox point sits within its borders."
   ]
  },
  {
@@ -2583,6 +2818,11 @@
   "l": [
    -131.25,
    -35
+  ],
+  "facts": [
+   "Lupus, the wolf, once visualized as an animal being carried to the altar of Centaurus.",
+   "Sits in a rich Milky Way region full of star clusters.",
+   "Contains the globular cluster NGC 5986."
   ]
  },
  {
@@ -2622,6 +2862,11 @@
   "l": [
    121.5,
    49
+  ],
+  "facts": [
+   "A faint constellation Hevelius joked was named because you'd need lynx eyes to find anything in it.",
+   "Contains one of the oldest known star clusters, the 12-billion-year-old NGC 2419, the 'Intergalactic Wanderer'.",
+   "Its brightest star is a dazzling orange-red double."
   ]
  },
  {
@@ -2665,6 +2910,11 @@
   "l": [
    -81,
    30
+  ],
+  "facts": [
+   "Lyra holds Vega, once the pole star and due to be so again.",
+   "The Ring Nebula, M57, is one of the easiest planetary nebulae to see in small telescopes.",
+   "The mythic lyre of Orpheus, whose music charmed even stones."
   ]
  },
  {
@@ -2692,6 +2942,11 @@
   "l": [
    82.5,
    -80
+  ],
+  "facts": [
+   "The Table Mountain, named for the peak above Cape Town where Lacaille observed.",
+   "Contains part of the Large Magellanic Cloud.",
+   "The faintest constellation of the southern sky \u2014 no star brighter than 5th magnitude."
   ]
  },
  {
@@ -2727,6 +2982,11 @@
   "l": [
    -43.5,
    -37
+  ],
+  "facts": [
+   "Microscopium, Lacaille's tribute to the microscope.",
+   "An obscure southern constellation with no bright stars.",
+   "Holds a galaxy cluster near the direction of the Great Attractor."
   ]
  },
  {
@@ -2780,6 +3040,11 @@
   "l": [
    114.75,
    -6
+  ],
+  "facts": [
+   "Monoceros the Unicorn, a young constellation first charted in 1613.",
+   "Contains the famous Rosette Nebula, a wreath of glowing gas.",
+   "Home to V838 Monocerotis, whose 2002 outburst lit up shells of dust in one of astronomy's great light echoes."
   ]
  },
  {
@@ -2819,6 +3084,11 @@
   "l": [
    -165,
    -73
+  ],
+  "facts": [
+   "Musca the Fly, the only insect constellation, added by Dutch navigators.",
+   "Sits between the Southern Cross and the Chamaeleon.",
+   "Contains the eclipsing binary system Beta Muscae."
   ]
  },
  {
@@ -2850,6 +3120,11 @@
   "l": [
    -117,
    -52
+  ],
+  "facts": [
+   "Norma, the carpenter's level, another Lacaille instrument.",
+   "Lies in the direction of the Milky Way's dense central bulge.",
+   "Holds open clusters and a pair of peculiar interacting galaxies."
   ]
  },
  {
@@ -2877,6 +3152,11 @@
   "l": [
    -60,
    -80
+  ],
+  "facts": [
+   "Octans contains the south celestial pole \u2014 the southern counterpart of Polaris sits here.",
+   "Its pole star, Sigma Octantis, is barely visible to the naked eye.",
+   "Named after the octant, the forerunner of the sextant."
   ]
  },
  {
@@ -2972,6 +3252,11 @@
   "l": [
    -102,
    3
+  ],
+  "facts": [
+   "The Serpent Bearer, sometimes called the 13th zodiac figure \u2014 the Sun passes through it in December.",
+   "Contains Barnard's Star, the fastest-moving star in the sky.",
+   "Holds the dark nebula Barnard 68 and the recurrent nova RS Ophiuchi."
   ]
  },
  {
@@ -3103,9 +3388,9 @@
    13
   ],
   "facts": [
-   "Contains two of the ten brightest stars: Rigel and Betelgeuse.",
-   "The three belt stars point to Sirius, the brightest star in the sky.",
-   "The Orion Nebula, visible below the belt, is a stellar nursery 1,300 light-years away."
+   "The Hunter, the most recognizable constellation in the sky \u2014 its three-belt asterism is famous worldwide.",
+   "The Orion Nebula is the nearest great stellar nursery, 1,300 light-years away.",
+   "Betelgeuse, a red supergiant, may one day explode as a supernova bright enough to see in daylight."
   ]
  },
  {
@@ -3161,6 +3446,11 @@
   "l": [
    -63,
    -62
+  ],
+  "facts": [
+   "Pavo, the peacock \u2014 a constellation named for the showiest bird of them all.",
+   "Its brightest star, Alpha Pavonis, means simply 'the peacock'.",
+   "Contains NGC 6752, one of the best globular clusters for southern observers."
   ]
  },
  {
@@ -3238,6 +3528,11 @@
   "l": [
    -25.5,
    16
+  ],
+  "facts": [
+   "The winged horse of myth, whose Great Square anchors the autumn sky.",
+   "The star 51 Pegasi hosted the first exoplanet found around a Sun-like star.",
+   "Its hooves are said to create the spring of Hippocrene, source of poetic inspiration."
   ]
  },
  {
@@ -3357,6 +3652,11 @@
   "l": [
    66,
    45
+  ],
+  "facts": [
+   "The hero who slew Medusa and rescued Andromeda.",
+   "Algol, the 'Demon Star', is a famous eclipsing binary that dims every 2.9 days.",
+   "The Perseid meteor shower, one of the year's finest, radiates from here every August."
   ]
  },
  {
@@ -3400,6 +3700,11 @@
   "l": [
    16.5,
    -43
+  ],
+  "facts": [
+   "The phoenix, the mythical bird reborn from its own ashes.",
+   "Contains the Phoenix Cluster, home to one of the most massive known galaxies.",
+   "Lies near the south celestial pole, best viewed from the Southern Hemisphere."
   ]
  },
  {
@@ -3423,6 +3728,11 @@
   "l": [
    82.5,
    -50
+  ],
+  "facts": [
+   "Pictor, the painter's easel, added by Lacaille.",
+   "Holds Beta Pictoris, famous for its debris disk \u2014 the first circumstellar disk imaged, in 1984.",
+   "Its stars are otherwise faint, making it a quiet patch of sky."
   ]
  },
  {
@@ -3536,10 +3846,15 @@
   "l": [
    19.5,
    15
+  ],
+  "facts": [
+   "Pisces, the two fish of the zodiac, tied by a cord.",
+   "The March equinox point lies here now \u2014 the 'First Point of Aries' has drifted into the Fishes.",
+   "Contains M74, one of the most perfect spiral galaxies known."
   ]
  },
  {
-  "n": "Southern Fish",
+  "n": "Southern\u2005Fish",
   "s": [
    [
     [
@@ -3587,10 +3902,15 @@
   "l": [
    -27,
    -29
+  ],
+  "facts": [
+   "Piscis Austrinus, the parent fish from which the two Pisces were said to spring.",
+   "Fomalhaut, its bright anchor, hosts the first directly imaged exoplanet orbiting a visible star.",
+   "Fomalhaut is sometimes called the Lonely Star of autumn \u2014 the only bright star in that region."
   ]
  },
  {
-  "n": "Poop Deck",
+  "n": "Poop\u2005Deck",
   "s": [
    [
     [
@@ -3652,6 +3972,11 @@
   "l": [
    111,
    -46
+  ],
+  "facts": [
+   "Puppis, the stern of the great ship Argo Navis.",
+   "Holds Puppis A, a supernova remnant 3,700 light-years away.",
+   "A rich Milky Way constellation with many open clusters."
   ]
  },
  {
@@ -3679,6 +4004,11 @@
   "l": [
    132,
    -24
+  ],
+  "facts": [
+   "Pyxis, the mariner's compass, once part of the Ship Argo.",
+   "Contains T Pyxidis, a recurrent nova that erupts every few decades.",
+   "A faint equatorial constellation, best seen in southern winter."
   ]
  },
  {
@@ -3710,6 +4040,11 @@
   "l": [
    55.5,
    -61
+  ],
+  "facts": [
+   "Reticulum, the reticle or grid at the eyepiece of a telescope.",
+   "Holds the interacting galaxy NGC 1559, home of a famous 2005 supernova.",
+   "One of Lacaille's smallest southern inventions."
   ]
  },
  {
@@ -3743,6 +4078,11 @@
   "l": [
    -69,
    18
+  ],
+  "facts": [
+   "Sagitta, the arrow \u2014 the third-smallest constellation of the 88.",
+   "Its brightest star, Sham, is an aging orange giant.",
+   "Contains the faint globular cluster M71 and the gorgeous Dumbbell's neighbor region."
   ]
  },
  {
@@ -3892,6 +4232,11 @@
   "l": [
    -67.5,
    -34
+  ],
+  "facts": [
+   "Sagittarius, the archer, aims his arrow at the heart of the Milky Way.",
+   "The galactic center lies here \u2014 the supermassive black hole Sagittarius A* lives behind its stars.",
+   "The famous Teapot asterism sits within its borders."
   ]
  },
  {
@@ -3965,6 +4310,11 @@
   "l": [
    -111,
    -38
+  ],
+  "facts": [
+   "Scorpius, the scorpion of Orion's fatal legend \u2014 the two constellations are placed on opposite sides of the sky.",
+   "Antares, its red supergiant heart, means 'rival of Mars'.",
+   "One of the most striking constellations, with a long curved tail of bright stars."
   ]
  },
  {
@@ -3992,6 +4342,11 @@
   "l": [
    1.5,
    -33
+  ],
+  "facts": [
+   "Sculptor, the sculptor's workshop, from Lacaille's era of tool constellations.",
+   "Contains the Sculptor Dwarf, a satellite galaxy of the Milky Way.",
+   "The South Galactic Pole lies within its boundaries."
   ]
  },
  {
@@ -4023,6 +4378,11 @@
   "l": [
    -78,
    -12.5
+  ],
+  "facts": [
+   "Scutum, the shield of John III Sobieski, King of Poland, added by Hevelius.",
+   "Holds the Wild Duck Cluster, M11, one of the richest open clusters known.",
+   "One of the smallest constellations, wedged between the Eagle and the Serpent."
   ]
  },
  {
@@ -4070,6 +4430,11 @@
   "l": [
    -79.5,
    3
+  ],
+  "facts": [
+   "Serpens is split in two by Ophiuchus \u2014 the only constellation divided into separate pieces.",
+   "Serpens Cauda (the tail) holds the Eagle Nebula and Pillars of Creation.",
+   "Serpens Caput (the head) contains the globular cluster M5."
   ]
  },
  {
@@ -4105,6 +4470,11 @@
   "l": [
    -79.5,
    3
+  ],
+  "facts": [
+   "Serpens is split in two by Ophiuchus \u2014 the only constellation divided into separate pieces.",
+   "Serpens Cauda (the tail) holds the Eagle Nebula and Pillars of Creation.",
+   "Serpens Caput (the head) contains the globular cluster M5."
   ]
  },
  {
@@ -4132,6 +4502,11 @@
   "l": [
    157.5,
    -7
+  ],
+  "facts": [
+   "Sextans, the sextant of navigation, another tool constellation.",
+   "Contains a distant galaxy cluster, Abell 2925.",
+   "Has no bright stars \u2014 its brightest is only 4th magnitude."
   ]
  },
  {
@@ -4203,6 +4578,11 @@
   "l": [
    54,
    15
+  ],
+  "facts": [
+   "Taurus the Bull, with the V-shaped Hyades cluster forming its face.",
+   "Aldebaran, its orange eye, lies 65 light-years away.",
+   "The Pleiades, the Seven Sisters, graze the Bull's shoulder \u2014 one of the most beautiful star clusters in the sky."
   ]
  },
  {
@@ -4226,6 +4606,11 @@
   "l": [
    -82.5,
    -54
+  ],
+  "facts": [
+   "Telescopium, Lacaille's tribute to the telescope itself.",
+   "Contains the interacting group NGC 6845.",
+   "A faint southern constellation with few notable objects."
   ]
  },
  {
@@ -4253,10 +4638,15 @@
   "l": [
    27,
    34
+  ],
+  "facts": [
+   "Triangulum, the triangle \u2014 one of Ptolemy's original 48 constellations.",
+   "Holds M33, the Triangulum Galaxy, third-largest member of the Local Group.",
+   "Represents the island of Sicily in one ancient tradition."
   ]
  },
  {
-  "n": "Southern Triangle",
+  "n": "Southern\u2005Triangle",
   "s": [
    [
     [
@@ -4280,6 +4670,11 @@
   "l": [
    -120,
    -67.5
+  ],
+  "facts": [
+   "Triangulum Australe, the southern triangle, brighter and more compact than its northern cousin.",
+   "Its three stars form a nearly perfect equilateral triangle.",
+   "Contains the bright open cluster NGC 6025."
   ]
  },
  {
@@ -4319,10 +4714,15 @@
   "l": [
    -12,
    -64
+  ],
+  "facts": [
+   "Tucana, the toucan of the southern sky, named by Dutch navigators.",
+   "Holds 47 Tucanae, the second-brightest globular cluster in the sky.",
+   "The Small Magellanic Cloud drifts within its borders."
   ]
  },
  {
-  "n": "Big Dipper",
+  "n": "Big\u2005Dipper",
   "s": [
    [
     [
@@ -4456,13 +4856,13 @@
    48
   ],
   "facts": [
-   "The seven brightest stars form the Big Dipper, an asterism.",
-   "The two outer Dipper stars point the way to Polaris, the North Star.",
-   "Mizar has a faint companion, Alcor — a classic naked-eye test of eyesight."
+   "Ursa Major, the Great Bear, whose Big Dipper asterism guides observers to the North Star.",
+   "M81 and M82, a famous interacting galaxy pair, live here.",
+   "Its Dipper stars move together as a genuine stellar family \u2014 the Ursa Major Moving Group."
   ]
  },
  {
-  "n": "Little Dipper",
+  "n": "Little\u2005Dipper",
   "s": [
    [
     [
@@ -4502,6 +4902,11 @@
   "l": [
    -133.5,
    68
+  ],
+  "facts": [
+   "Ursa Minor, the Little Bear, whose tail holds Polaris, the North Star.",
+   "Polaris lies almost exactly at the north celestial pole \u2014 it will drift away over centuries of precession.",
+   "The 'Little Dipper' has guided navigators for thousands of years."
   ]
  },
  {
@@ -4545,6 +4950,11 @@
   "l": [
    143.25,
    -46
+  ],
+  "facts": [
+   "Vela, the sails of the Argo, split off from the great ship in 1930.",
+   "Holds the Vela Pulsar, the remnant of a supernova seen about 11,000 years ago.",
+   "The Gum Nebula, one of the largest known emission nebulae, sprawls across its borders."
   ]
  },
  {
@@ -4620,10 +5030,15 @@
   "l": [
    -160.5,
    -4
+  ],
+  "facts": [
+   "Virgo, the maiden of the zodiac \u2014 the second-largest constellation of the 88.",
+   "Spica, its brightest star, is actually four stars bound together.",
+   "The Virgo Cluster holds more than 1,300 galaxies \u2014 the nearest great cluster to our own."
   ]
  },
  {
-  "n": "Flying Fish",
+  "n": "Flying\u2005Fish",
   "s": [
    [
     [
@@ -4659,10 +5074,15 @@
   "l": [
    111,
    -73
+  ],
+  "facts": [
+   "Volans, the flying fish, named for the fish sailors saw gliding over the waves.",
+   "One of the smaller southern constellations, near the Large Magellanic Cloud.",
+   "Charted by Dutch navigators around 1600."
   ]
  },
  {
-  "n": "Little Fox",
+  "n": "Little\u2005Fox",
   "s": [
    [
     [
@@ -4690,6 +5110,11 @@
   "l": [
    -64.5,
    21
+  ],
+  "facts": [
+   "Vulpecula, the little fox, added by Hevelius in 1687.",
+   "Holds the Dumbbell Nebula, M27, one of the finest planetary nebulae for small telescopes.",
+   "Contains the famous Coathanger asterism, a hook of six stars easy to spot in binoculars."
   ]
  }
 ]

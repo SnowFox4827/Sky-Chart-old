@@ -306,18 +306,18 @@
       ctx.stroke();
       if (c.l){
         const p = project(c.l[0]*D2R, c.l[1]*D2R);
-        if (p[2] > 0.05) constLabels.push([cx+p[0]*view.scale, cy+p[1]*view.scale, c.n]);
+        if (p[2] > 0.05) constLabels.push([cx+p[0]*view.scale, cy+p[1]*view.scale, c]);
       }
     }
     ctx.font = '10px Segoe UI, sans-serif'; ctx.textBaseline='middle'; ctx.textAlign='center';
     const placed = [];
-    for (const [lx,ly,nm] of constLabels){
+    for (const [lx,ly,c] of constLabels){
       let ok = true;
       for (const [px,py] of placed){ if ((lx-px)**2 + (ly-py)**2 < 1600){ ok=false; break; } }
       if (!ok) continue;
       placed.push([lx,ly]);
       ctx.fillStyle = 'rgba(125,150,225,0.85)';
-      ctx.fillText(nm, lx, ly);
+      ctx.fillText(c.n, lx, ly);
     }
     ctx.textAlign = 'left';
   }
@@ -433,6 +433,15 @@
           return;
         }
       }
+      for (const [lx,ly,c] of constLabels){
+        const dw = ctx.measureText(c.n).width/2 + 6;
+        if (Math.abs(e.clientX-lx) < dw && Math.abs(e.clientY-ly) < 9){
+          tip.style.display='block'; tip.style.left=(e.clientX+14)+'px'; tip.style.top=(e.clientY+14)+'px';
+          tip.innerHTML = '<b>'+c.n+'</b><br>Constellation — click for info';
+          canvas.style.cursor='pointer';
+          return;
+        }
+      }
     }
   });
   canvas.addEventListener('click', e=>{
@@ -456,6 +465,15 @@
     if (best){
       showInfo(...dsoInfo(best));
       return;
+    }
+    for (const [lx,ly,c] of constLabels){
+      const dw = ctx.measureText(c.n).width/2 + 6;
+      if (Math.abs(e.clientX-lx) < dw && Math.abs(e.clientY-ly) < 9){
+        showInfo(c.n, 'Constellation',
+          'One of the 88 official figures · '+c.s.length+' star paths',
+          c.facts);
+        return;
+      }
     }
     for (const [sx,sy,s] of visible){
       const d2=(e.clientX-sx)**2+(e.clientY-sy)**2;
