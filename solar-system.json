@@ -1,0 +1,255 @@
+{
+ "comment": "Orbital elements (epoch 2000.0) per Paul Schlyter's method. Angles in degrees, rates in deg/day, distances in AU. Moon perturbation terms live in solarsystem.js; the Sun follows Earth's mirrored orbit, so no Sun entry here.",
+ "bodies": [
+  {
+   "name": "Mercury",
+   "color": "#c8bfae",
+   "elements": {
+    "N": {
+     "value": 48.3313,
+     "rate_per_day": 3.24587e-05
+    },
+    "i": {
+     "value": 7.0047,
+     "rate_per_day": 5e-08
+    },
+    "w": {
+     "value": 29.1241,
+     "rate_per_day": 1.011e-05
+    },
+    "a_AU": 0.387098,
+    "e": {
+     "value": 0.205635,
+     "rate_per_day": 5.59e-09
+    },
+    "M": {
+     "value": 168.6562,
+     "rate_per_day": 4.0923344368
+    }
+   },
+   "absolute_magnitude_H": -0.36,
+   "facts": [
+    "A Mercurian day (sunrise to sunrise) lasts 176 Earth days — twice its 88-day year.",
+    "Temperatures swing from 430°C in daylight to −180°C at night.",
+    "Despite being closest to the Sun, it is not the hottest planet — that's Venus.",
+    "Its huge iron core makes it the second-densest planet."
+   ]
+  },
+  {
+   "name": "Venus",
+   "color": "#f7f0dc",
+   "elements": {
+    "N": {
+     "value": 76.6799,
+     "rate_per_day": 2.4659e-05
+    },
+    "i": {
+     "value": 3.3946,
+     "rate_per_day": 2.75e-08
+    },
+    "w": {
+     "value": 54.891,
+     "rate_per_day": 1.38374e-05
+    },
+    "a_AU": 0.72333,
+    "e": {
+     "value": 0.006773,
+     "rate_per_day": -1.302e-09
+    },
+    "M": {
+     "value": 48.0052,
+     "rate_per_day": 1.6021302244
+    }
+   },
+   "absolute_magnitude_H": -4.47,
+   "facts": [
+    "Venus spins backwards, and so slowly that its day is longer than its year.",
+    "Its runaway greenhouse keeps the surface near 465°C — hot enough to melt lead.",
+    "Surface pressure is 92 times Earth's, like being 900 m underwater.",
+    "It is the brightest planet in our sky, glowing steadily because of its thick cloud deck."
+   ]
+  },
+  {
+   "name": "Mars",
+   "color": "#e2724a",
+   "elements": {
+    "N": {
+     "value": 49.5574,
+     "rate_per_day": 2.11081e-05
+    },
+    "i": {
+     "value": 1.8497,
+     "rate_per_day": -1.78e-08
+    },
+    "w": {
+     "value": 286.5016,
+     "rate_per_day": 2.92961e-05
+    },
+    "a_AU": 1.523688,
+    "e": {
+     "value": 0.093405,
+     "rate_per_day": 2.9e-09
+    },
+    "M": {
+     "value": 18.6021,
+     "rate_per_day": 0.5240207766
+    }
+   },
+   "absolute_magnitude_H": -1.52,
+   "facts": [
+    "Olympus Mons on Mars is the tallest volcano in the Solar System — nearly 3× Everest.",
+    "Mars has the largest canyon system, Valles Marineris, over 4,000 km long.",
+    "Its red color comes from iron oxide — literally rust — dust.",
+    "It has two tiny moons, Phobos and Deimos, likely captured asteroids."
+   ]
+  },
+  {
+   "name": "Jupiter",
+   "color": "#f0e2c0",
+   "elements": {
+    "N": {
+     "value": 100.4542,
+     "rate_per_day": 2.76854e-05
+    },
+    "i": {
+     "value": 1.303,
+     "rate_per_day": -1.557e-07
+    },
+    "w": {
+     "value": 273.8777,
+     "rate_per_day": 1.64505e-05
+    },
+    "a_AU": 5.20256,
+    "e": {
+     "value": 0.048498,
+     "rate_per_day": 4.35e-09
+    },
+    "M": {
+     "value": 19.895,
+     "rate_per_day": 0.0830853001
+    }
+   },
+   "absolute_magnitude_H": -9.4,
+   "facts": [
+    "Jupiter outweighs all the other planets combined — 2.5 times over.",
+    "The Great Red Spot is a storm larger than Earth that has raged for centuries.",
+    "It has 95 known moons, including Ganymede, bigger than Mercury.",
+    "Its day is the shortest of any planet: under 10 hours."
+   ]
+  },
+  {
+   "name": "Saturn",
+   "color": "#e8d9a8",
+   "elements": {
+    "N": {
+     "value": 113.6634,
+     "rate_per_day": 2.3898e-05
+    },
+    "i": {
+     "value": 2.4886,
+     "rate_per_day": -1.1e-07
+    },
+    "w": {
+     "value": 339.3939,
+     "rate_per_day": 2.97661e-05
+    },
+    "a_AU": 9.55475,
+    "e": {
+     "value": 0.055546,
+     "rate_per_day": -9.499e-09
+    },
+    "M": {
+     "value": 316.967,
+     "rate_per_day": 0.0334442282
+    }
+   },
+   "absolute_magnitude_H": -8.88,
+   "facts": [
+    "Saturn is the least dense planet — it would float in water.",
+    "Its rings are mostly water ice, and may be younger than the dinosaurs.",
+    "Its moon Titan has rivers and lakes of liquid methane.",
+    "A hexagonal jet stream circles its north pole — a hexagon wider than two Earths."
+   ]
+  },
+  {
+   "name": "Uranus",
+   "color": "#9fe0e8",
+   "elements": {
+    "N": {
+     "value": 74.0005,
+     "rate_per_day": 1.3978e-05
+    },
+    "i": {
+     "value": 0.7733,
+     "rate_per_day": 1.9e-08
+    },
+    "w": {
+     "value": 96.6612,
+     "rate_per_day": 3.0565e-05
+    },
+    "a_AU": 19.2184,
+    "e": {
+     "value": 0.047318,
+     "rate_per_day": 7.45e-09
+    },
+    "M": {
+     "value": 142.5902,
+     "rate_per_day": 0.011725806
+    }
+   },
+   "absolute_magnitude_H": -7.19,
+   "facts": [
+    "Uranus rolls on its side, tilted 98° — possibly knocked over by an ancient impact.",
+    "Each pole gets 42 years of sunlight, then 42 years of darkness.",
+    "It is the coldest planet, dipping below −220°C.",
+    "It was the first planet discovered with a telescope, by William Herschel in 1781."
+   ]
+  },
+  {
+   "name": "Neptune",
+   "color": "#7f9df0",
+   "elements": {
+    "N": {
+     "value": 131.7806,
+     "rate_per_day": 3.0173e-05
+    },
+    "i": {
+     "value": 1.77,
+     "rate_per_day": -2.55e-07
+    },
+    "w": {
+     "value": 272.8461,
+     "rate_per_day": -6.027e-06
+    },
+    "a_AU": 30.11,
+    "e": {
+     "value": 0.008606,
+     "rate_per_day": 2.15e-09
+    },
+    "M": {
+     "value": 260.2471,
+     "rate_per_day": 0.005995147
+    }
+   },
+   "absolute_magnitude_H": -6.87,
+   "facts": [
+    "Neptune was found by mathematics before it was seen — predicted from Uranus's wobble.",
+    "It has the fastest winds in the Solar System, over 2,000 km/h.",
+    "One Neptunian year lasts 165 Earth years; it has completed one orbit since discovery in 1846.",
+    "Its moon Triton orbits backwards and erupts nitrogen geysers."
+   ]
+  }
+ ],
+ "sunFacts": [
+  "It holds 99.86% of the Solar System's mass.",
+  "About 1.3 million Earths would fit inside it.",
+  "Light from its surface takes about 8.3 minutes to reach Earth.",
+  "It converts about 4 million tons of matter into energy every second."
+ ],
+ "moonFacts": [
+  "It always shows us the same face — its rotation matches its orbit.",
+  "It drifts about 3.8 cm farther from Earth every year.",
+  "Moonlight is reflected sunlight; the Moon makes no light of its own.",
+  "Twelve people have walked on it, all between 1969 and 1972."
+ ]
+}
